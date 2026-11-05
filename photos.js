@@ -10,6 +10,10 @@ Object.assign(IMG,{aircraft:PHOTO_URL(0),grid:PHOTO_URL(10),solar:PHOTO_URL(11),
 QUESTION_GALLERY.forEach((mission,i)=>mission.forEach((_,q)=>{mission[q]=PHOTO_URL(PHOTO_POOLS[i][(q+Math.floor(q/3))%PHOTO_POOLS[i].length])}));
 GALLERY.splice(0,GALLERY.length, ['backup','grid','aircraft','control'],['factory','demand','backup','grid'],['storage','solar','backup','aircraft'],['control','grid','factory','backup'],['aircraft','backup','storage','grid']);
 
+/* Approved photorealistic substation for Mission 1 in-depth lesson. Hosted in this repository. */
+IMG.lesson1Substation = './assets/mission_01_theory_substation.png?v=lesson1-20261106-1';
+GALLERY[0][1] = 'lesson1Substation';
+
 /* Photographic credits and license links, accessible but unobtrusive. */
 (function(){const foot=document.querySelector('.foot');if(!foot)return;
  const credits=document.createElement('details');credits.className='photoCredits';
