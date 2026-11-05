@@ -22,10 +22,10 @@ MISSIONS.splice(0,MISSIONS.length,...energyMissions);
 THEORY.splice(0,THEORY.length,...energyLessons);
 MATERIALS.splice(0,MATERIALS.length,
  {es:"Red y distribución",en:"Grid and distribution",img:"grid",es_desc:"Dependencias físicas, cuadros y transformadores.",en_desc:"Physical dependencies, switchboards and transformers."},
- {es:"Generación renovable",en:"Renewable generation",img:"solar",es_desc:"Producción variable y operación en isla cuando está validada.",en_desc:"Variable generation and validated islanded operation."},
+ {es:"Alimentación eléctrica en tierra",en:"Aircraft ground power",img:"solar",es_desc:"Suministro eléctrico a aeronaves mediante equipos de apoyo en tierra.",en_desc:"Electrical power to aircraft via ground-support equipment."},
  {es:"Almacenamiento",en:"Energy storage",img:"storage",es_desc:"Potencia, energía útil, seguridad y autonomía.",en_desc:"Power, usable energy, safety and autonomy."},
  {es:"Equipos de respaldo",en:"Backup equipment",img:"backup",es_desc:"Repuestos, combustible y comprobación técnica.",en_desc:"Spares, fuels and technical testing."},
- {es:"Gestión de demanda",en:"Demand management",img:"demand",es_desc:"Reducir pérdidas y mover cargas autorizadas.",en_desc:"Cut losses and shift approved loads."},
+ {es:"Gestión de demanda en hangares",en:"Hangar demand management",img:"demand",es_desc:"Priorizar las cargas críticas de mantenimiento, iluminación y equipos auxiliares.",en_desc:"Prioritize critical maintenance, lighting and auxiliary loads."},
  {es:"Infraestructura y OT",en:"Infrastructure and OT",img:"control",es_desc:"Mantenimiento, protección y restauración.",en_desc:"Maintenance, protection and restoration."}
 );
 SOURCES.splice(0,SOURCES.length,
