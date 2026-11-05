@@ -93,10 +93,47 @@ function energyGraphic(m,q){
  const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#143751"/><stop offset="1" stop-color="#071725"/></linearGradient></defs><rect width="1200" height="320" fill="url(#bg)"/>'+grid+'<circle cx="'+(730+seed%4*30)+'" cy="92" r="172" fill="'+accent+'" opacity=".05"/><rect x="38" y="32" width="154" height="45" rx="11" fill="'+accent+'" opacity=".14"/><text x="54" y="61" font-family="Arial" font-size="21" font-weight="800" fill="'+accent+'">MISSION '+String(m+1).padStart(2,"0")+'</text><text x="38" y="139" font-family="Arial" font-size="38" font-weight="800" fill="#fff">'+label+'</text><text x="38" y="185" font-family="Arial" font-size="22" fill="#c4d9e7">ENERGY SECURITY  /  RESILIENCE</text><path d="M38 223h435" stroke="'+accent+'" stroke-width="3" opacity=".6"/><text x="38" y="274" font-family="Arial" font-size="19" fill="#c5deec">DECISION '+String(q+1).padStart(2,"0")+' / 10  ·  ILLUSTRATIVE SCENARIO</text><g opacity=".35">'+bars+'</g><path d="'+wave+'" stroke="'+accent+'" stroke-width="4" fill="none" opacity=".6"/>'+symbol+'</svg>';
  return "data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg);
 }
+
+function energyHero(){
+ const svg = '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Illustration of energy infrastructure supporting aircraft operations">'
+ +'<defs>'
+ +'<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#103952"/><stop offset=".52" stop-color="#0d2d42"/><stop offset="1" stop-color="#081c2c"/></linearGradient>'
+ +'<radialGradient id="glow"><stop stop-color="#56dbe8" stop-opacity=".20"/><stop offset="1" stop-color="#56dbe8" stop-opacity="0"/></radialGradient>'
+ +'<linearGradient id="flow"><stop stop-color="#69dde9"/><stop offset=".54" stop-color="#8bc5ff"/><stop offset="1" stop-color="#a7eed2"/></linearGradient>'
+ +'<pattern id="mesh" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" stroke="#90bcd3" stroke-opacity=".09" fill="none"/></pattern>'
+ +'</defs>'
+ +'<rect width="960" height="360" fill="url(#bg)"/><rect width="960" height="360" fill="url(#mesh)"/>'
+ +'<ellipse cx="510" cy="178" rx="430" ry="245" fill="url(#glow)"/>'
+ +'<path d="M54 284H909" stroke="#80b8d0" stroke-width="1" opacity=".15"/>'
+ +'<path d="M180 179H777" stroke="#64dfe8" stroke-width="18" opacity=".055"/>'
+ +'<path d="M180 179H777" stroke="url(#flow)" stroke-width="3.5" stroke-dasharray="14 13" stroke-linecap="round" opacity=".85"/>'
+ +'<path d="M180 179L318 179 365 129 425 129 477 179 554 179 600 223 652 223 780 179" stroke="#6edce4" stroke-width="1.2" fill="none" opacity=".38"/>'
+ +'<circle cx="180" cy="179" r="92" fill="#0c3347" stroke="#67c6d3" stroke-width="1.5" stroke-opacity=".52"/>'
+ +'<circle cx="180" cy="179" r="76" fill="none" stroke="#66ccda" stroke-width="1" stroke-dasharray="3 9" opacity=".48"/>'
+ +'<path d="M152 233L179 112 207 233 M163 184H194 M158 205H201 M166 164H191" stroke="#a1e7ed" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>'
+ +'<path d="M148 149L124 168 152 180 M207 149L233 168 205 180" stroke="#65bbd4" stroke-width="3" fill="none" opacity=".65"/>'
+ +'<path d="M114 168L77 157M246 168L281 157" stroke="#65bbd4" stroke-width="2.5" fill="none" opacity=".58"/>'
+ +'<circle cx="477" cy="179" r="72" fill="#0d3b4d" stroke="#7edcf0" stroke-width="1.6" stroke-opacity=".6"/>'
+ +'<circle cx="477" cy="179" r="55" fill="none" stroke="#74dce8" stroke-opacity=".28" stroke-width="1"/>'
+ +'<rect x="442" y="139" width="70" height="80" rx="12" fill="#153d55" stroke="#b1e7f5" stroke-width="3"/>'
+ +'<path d="M454 158H500 M454 170H500" stroke="#73bed3" stroke-width="3" opacity=".45"/>'
+ +'<path d="M473 182l-9 15h12l-6 15 20-22h-13l5-8z" fill="#8ff0e0"/>'
+ +'<rect x="464" y="131" width="26" height="8" rx="2" fill="#9be8ea" opacity=".75"/>'
+ +'<circle cx="780" cy="179" r="103" fill="#0c2c40" stroke="#7dabbf" stroke-opacity=".42" stroke-width="1.6"/>'
+ +'<circle cx="780" cy="179" r="88" fill="none" stroke="#7dabbf" stroke-opacity=".25" stroke-dasharray="4 10"/>'
+ +'<path d="M780 88C789 94 792 113 792 130V165L871 206V224L792 200V254L820 270V281L780 271 740 281V270L768 254V200L689 224V206L768 165V130C768 113 771 94 780 88Z" fill="#c3e3ee" fill-opacity=".16" stroke="#b4e5f0" stroke-width="4" stroke-linejoin="round"/>'
+ +'<path d="M780 117V267" stroke="#7cd2e7" stroke-width="2" opacity=".52"/>'
+ +'<circle cx="325" cy="179" r="6" fill="#8ee7eb"/><circle cx="627" cy="179" r="6" fill="#a4e2d4"/>'
+ +'<path d="M180 64V44 M477 95V64 M780 66V42" stroke="#a4e3e6" stroke-width="2" opacity=".38"/>'
+ +'<circle cx="180" cy="39" r="4" fill="#9adddf" opacity=".55"/><circle cx="780" cy="36" r="4" fill="#9adddf" opacity=".55"/>'
+ +'</svg>';
+ return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+}
+
 Object.assign(IMG,{
  aircraft:energyGraphic(4,8),titanium:energyGraphic(2,5),carbon:energyGraphic(1,5),
  aluminum:energyGraphic(1,3),machining:energyGraphic(3,7),ingots:energyGraphic(0,0),
- factory:energyGraphic(3,0),flightline:energyGraphic(4,9),
+ factory:energyGraphic(3,0),flightline:energyHero(),
  grid:energyGraphic(0,2),solar:energyGraphic(2,0),storage:energyGraphic(2,1),
  backup:energyGraphic(2,4),demand:energyGraphic(1,0),control:energyGraphic(3,3)
 });
