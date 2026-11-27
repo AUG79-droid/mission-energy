@@ -24,3 +24,5 @@ This is a separate repository and does not require changing any Sustainability N
 
 ## Resilience reinforcement (v2)
 Five missions and 50 decisions retained; 10 revised quantitative/climate decisions, explicit assumptions, competency-specific accuracy with denominators, and a three-question professional transfer exercise. Fictional examples only. v1 game progress is retained under its original local key; v2 starts a fresh journey. No operational performance or individual competence is certified.
+
+Assessment revision `energy-v2` retains the original four-question scale and uses new paired prompts for dependency, numerical autonomy, climate adaptation and evidence limits. Old records remain exportable and must not be pooled with v2. New completed records contain the structured three-answer professional transfer exercise (role category only; no work data).
