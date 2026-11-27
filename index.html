@@ -77,12 +77,12 @@ function metrics(){
 'Capacidad de mantener funciones esenciales ante restricciones.',
 'Alternativas y flexibilidad de suministro y demanda verificadas.',
 'Respeto a seguridad, calidad y autorizaciones técnicas.',
-'Reducción de pérdidas con continuidad del servicio y uso responsable de recursos.'
+'Eficiencia con continuidad del servicio y justificación mediante datos y evidencias.'
 ] : [
 'Ability to sustain essential functions during disruptions.',
 'Verified alternatives and flexibility in supply and demand.',
 'Respect for safety, quality and technical authorisations.',
-'Reduced losses while preserving service and resources.'
+'Efficiency while preserving service, justified through data and evidence.'
 ];
  const results=themeLine().map((_,i)=>{const relevant=s.answers.filter(a=>MISSIONS[a.m]?.questions[a.q]?.competencies.includes(i));const correct=relevant.filter(a=>MISSIONS[a.m].questions[a.q].correct===a.option).length;return {n:relevant.length,correct,pct:relevant.length?Math.round(100*correct/relevant.length):null};});
  const cards=results.map((r,i)=>`<div class="metric" title="${esc(defs[i])}"><div class="metricHeader"><span>${esc(themeLine()[i])}</span><strong>${r.n?r.pct+'/100':tr('pending')}</strong></div><div class="bar"><div style="width:${r.pct??0}%"></div></div><small>${r.n?r.correct+'/'+r.n+' '+(s.lang==='es'?'decisiones correctas':'correct decisions'):''}</small></div>`).join('');
