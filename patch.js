@@ -7,6 +7,7 @@ const energyLessons=L.map(group=>group.map(part=>({
  heading:energyPair(part[0]),body:energyPair(part[1]),
  bullets:{es:part.slice(2).map(t=>energyPair(t).es),en:part.slice(2).map(t=>energyPair(t).en)}
 })));
+const ENERGY_TAGS=[[[0,1],[0,1],[0,1],[1,3],[0,1],[0,2],[1],[1],[0,2],[0,3]],[[0,1,2],[2,3],[1,3],[3],[3],[0,2],[1,3],[3],[0,1,3],[0,2,3]],[[0,1,2],[1],[0,1],[1],[0,1,2],[1,2],[0,1],[1,3],[2,3],[0,1,3]],[[0,2],[0,1,2],[0,2],[2],[0,2],[0,1],[0,1,2],[2],[0,2,3],[0,2]],[[0,2],[0,2],[2],[0,1],[1,2],[0,1,2],[1,3],[0,2],[0,2],[0,3]]];
 const energyMissions=E.rows.map((rows,i)=>({
  id:["supply-shock","critical-demand","supply-diversity","infrastructure","72h-challenge"][i],
  title:{es:energyMeta[i][0],en:energyMeta[i][1]},
@@ -16,7 +17,7 @@ const energyMissions=E.rows.map((rows,i)=>({
   es:{intro:energyLessons[i][0].body.es,concepts:energyLessons[i].slice(0,3).map(x=>x.heading.es),relevance:energyLessons[i][4].body.es},
   en:{intro:energyLessons[i][0].body.en,concepts:energyLessons[i].slice(0,3).map(x=>x.heading.en),relevance:energyLessons[i][4].body.en}
  },
- questions:rows.map((r,q)=>{const correct=(q*2+Math.floor(q/3))%3;const options=[null,null,null];options[correct]=energyPair(r[1]);const wrong=[energyPair(r[2]),energyPair(r[3])];for(let k=0;k<3;k++)if(!options[k])options[k]=wrong.shift();return {q:energyPair(r[0]),options,correct,reason:energyPair(r[4]),weight:[6,5,5,5]};})
+ questions:rows.map((r,q)=>{const correct=(q*2+Math.floor(q/3))%3;const options=[null,null,null];options[correct]=energyPair(r[1]);const wrong=[energyPair(r[2]),energyPair(r[3])];for(let k=0;k<3;k++)if(!options[k])options[k]=wrong.shift();return {q:energyPair(r[0]),options,correct,reason:energyPair(r[4]),competencies:ENERGY_TAGS[i][q]};})
 }));
 MISSIONS.splice(0,MISSIONS.length,...energyMissions);
 THEORY.splice(0,THEORY.length,...energyLessons);
@@ -140,3 +141,6 @@ Object.assign(IMG,{
 QUESTION_GALLERY.forEach((g,i)=>g.forEach((v,j)=>{g[j]=energyGraphic(i,j)}));
 GALLERY.splice(0,GALLERY.length,["grid","solar","backup","control"],["demand","storage","solar","factory"],["solar","storage","backup","grid"],["control","factory","storage","backup"],["backup","grid","control","demand"]);
 if(MISSIONS.length!==5||MISSIONS.some(m=>m.questions.length!==10)||THEORY.some(g=>g.length!==5)||QUESTION_GALLERY.length!==5)throw Error("Mission Energy content validation failed");
+
+Object.assign(T.es,{metricsHow:"Cada indicador es el porcentaje de aciertos en las decisiones asociadas a esa competencia. Se muestra el denominador; una decisión puede evaluar varias competencias. No son porcentajes de disponibilidad real.",metric4:"Eficiencia y evidencias",finalReportHint:"Aplicación profesional y evaluación final"});
+Object.assign(T.en,{metricsHow:"Each indicator is the percentage of correct choices among decisions tagged to that competency. The denominator is shown; a decision may assess multiple competencies. These are not actual availability percentages.",metric4:"Efficiency and evidence",finalReportHint:"Professional application and final assessment"});
