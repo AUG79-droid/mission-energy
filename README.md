@@ -21,3 +21,6 @@ The application has 5 missions, 25 in-depth lesson sections, 50 scenario-based d
 - Application progress is saved locally in the browser; using another device or clearing site data resets local progress.
 
 This is a separate repository and does not require changing any Sustainability Navigator deployment settings.
+
+## Resilience reinforcement (v2)
+Five missions and 50 decisions retained; 10 revised quantitative/climate decisions, explicit assumptions, competency-specific accuracy with denominators, and a three-question professional transfer exercise. Fictional examples only. v1 game progress is retained under its original local key; v2 starts a fresh journey. No operational performance or individual competence is certified.
