@@ -23,7 +23,10 @@ def get(url):
 def clean(s):
     return html.unescape(re.sub(r'<[^>]*>','',s or '')).strip()
 def search(q):
-    args={'action':'query','format':'json','generator':'search','gsrnamespace':6,'gsrsearch':q+' filetype:bitmap','gsrlimit':20,'prop':'imageinfo','iiprop':'url|size|sha1|mime|extmetadata','iiurlwidth':960}
+    args={'action':'query','format':'json','generator':'search','gsrnamespace':6,'gsrsearch':q+' filetype:bitmap','gsrlimit':40,'prop':'imageinfo','iiprop':'url|size|sha1|mime|extmetadata','iiurlwidth':960}
+    if q.startswith('FILE:'):
+        for k in ['generator','gsrnamespace','gsrsearch','gsrlimit']:args.pop(k,None)
+        args['titles']='File:'+q[5:]
     data=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(args)))
     return sorted(data.get('query',{}).get('pages',{}).values(),key=lambda p:p.get('index',999))
 def dhash(im):
@@ -32,6 +35,7 @@ def dhash(im):
 for i,group in enumerate(TOPICS):
     row=[]
     for j,(es,en,*queries) in enumerate(group):
+        pattern=queries.pop()[6:]
         found=None
         for q in queries:
             try: pages=search(q)
@@ -43,6 +47,8 @@ for i,group in enumerate(TOPICS):
                 val=lambda k:clean(meta.get(k,{}).get('value',''))
                 license=val('LicenseShortName')
                 title=page.get('title','')
+                if re.search(r'\b(EFTA\d*|historic district|museum|archive|194[0-9]|195[0-9]|196[0-9]|197[0-9]|chemical agent|weapon|portrait)\b',title,re.I):continue
+                if not q.startswith('FILE:') and not re.search(pattern,title,re.I):continue
                 if info.get('mime') not in ('image/jpeg','image/png','image/webp') or info.get('width',0)<850 or info.get('height',0)<400 or info.get('width',0)/max(1,info.get('height',1))<1.15:continue
                 if not re.match(r'^(CC BY(?:-SA)? |CC0|Public domain|PD)',license,re.I):continue
                 if re.search(r'\b(map|diagram|schematic|logo|icon|drawing|chart|flag|screenshot|portrait)\b',title,re.I):continue
