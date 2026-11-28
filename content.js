@@ -260,146 +260,146 @@ const ENERGY_DATA={
     ],
     [
       [
-        "Un respaldo no se prueba desde hace meses. ¿Qué proceder?|Backup has not been tested for months. What is appropriate?",
-        "Prueba autorizada bajo condiciones seguras.|An authorised test under safe conditions.",
-        "Declararlo disponible sin evidencias.|Declare availability without evidence.",
-        "Probarlo sin supervisión.|Test it without supervision.",
-        "La preparación requiere resultados comprobables.|Readiness requires verifiable results."
+        "Una ola de calor afecta a un hangar; un inversor pierde potencia por encima de su límite térmico y un ensayo se interrumpe. ¿Cuál es la vulnerabilidad?|A heatwave affects a hangar; an inverter loses power above its thermal limit and a test stops. What is the vulnerability?",
+        "La sensibilidad térmica del inversor.|The inverter's thermal sensitivity.",
+        "La ola de calor.|The heatwave.",
+        "La interrupción del ensayo.|The test interruption.",
+        "El calor es amenaza, el inversor está expuesto, su sensibilidad es vulnerabilidad y la interrupción es consecuencia.|Heat is hazard, the inverter is exposed, its sensitivity is vulnerability, and interruption is consequence."
       ],
       [
-        "Durante calor extremo, una fuente baja de 100 a 70 kW. La función crítica requiere 80 kW. ¿Qué adaptación evaluar?|During extreme heat, a source drops from 100 to 70 kW. The critical function needs 80 kW. What adaptation should be assessed?",
-        "Protección térmica o respaldo independiente capaz de cubrir el déficit, verificando límites y ensayos.|Thermal protection or independent backup covering the shortfall, verifying limits and tests.",
-        "Mantener la planificación de 100 kW porque es la potencia nominal.|Keep planning for 100 kW because that is the rated power.",
-        "Aceptar 70 kW sin comprobar si la función sigue siendo segura.|Accept 70 kW without checking whether the function remains safe.",
-        "Hay un déficit de 10 kW. La adaptación debe recuperar capacidad utilizable o proteger la función mediante una alternativa validada.|There is a 10 kW shortfall. Adaptation must restore usable capacity or protect the function with a validated alternative."
+        "Una instalación solar reduce emisiones, pero el respaldo permanece expuesto a inundación. ¿Qué conclusión procede?|Solar reduces emissions but backup remains exposed to flooding. What conclusion follows?",
+        "Puede contribuir a mitigación; la adaptación a inundación requiere evaluar y reducir esa vulnerabilidad.|It may contribute to mitigation; flood adaptation requires assessing and reducing that vulnerability.",
+        "La reducción de emisiones demuestra adaptación a inundación.|Emissions reduction demonstrates flood adaptation.",
+        "La solar no puede contribuir a resiliencia en ningún escenario.|Solar cannot contribute to resilience in any scenario.",
+        "Los objetivos son distintos. La solar podría ayudar en otros escenarios, pero no demuestra reducción de vulnerabilidad a inundación.|Objectives differ. Solar might help in other scenarios but does not demonstrate reduced flood vulnerability."
       ],
       [
-        "Una inundación puede dejar fuera de servicio dos cuadros situados en la misma zona baja. ¿Qué propuesta reduce el fallo común?|Flooding may disable two switchboards in the same low-lying area. Which proposal reduces common failure?",
-        "Evaluar protección o reubicación fuera de la exposición y una ruta alternativa independiente, con estudio hidráulico y eléctrico.|Assess protection or relocation outside exposure and an independent alternative path, with hydraulic and electrical review.",
-        "Duplicar otro cuadro en la misma zona sin protección adicional.|Duplicate another switchboard in the same area without extra protection.",
-        "Aumentar la potencia contratada sin cambiar la exposición.|Increase contracted power without changing exposure.",
-        "La duplicación en la misma zona no elimina la amenaza compartida. Deben evaluarse exposición, independencia y recuperación.|Duplication in the same area does not remove shared exposure. Assess exposure, independence and recovery."
+        "Una fuente de 160 kW conserva el 70 % de capacidad durante calor extremo. Demanda esencial: 120 kW. ¿Margen?|A 160 kW source retains 70% capacity in extreme heat. Essential demand: 120 kW. Headroom?",
+        "−8 kW.|−8 kW.",
+        "40 kW.|40 kW.",
+        "−48 kW.|−48 kW.",
+        "160×0,70=112 kW; 112−120=−8 kW. 40 es margen nominal; 48 es pérdida de capacidad.|160×0.70=112 kW; 112−120=−8 kW. 40 is nominal headroom; 48 is lost capacity."
       ],
       [
-        "Una alarma OT aparece sin explicación. ¿Qué respuesta es correcta?|An unexplained OT alarm appears. What is appropriate?",
-        "Seguir protocolo y escalar sin anular protecciones.|Follow protocol and escalate without bypassing protection.",
-        "Desactivar la alarma.|Disable the alarm.",
-        "Compartir credenciales abiertamente.|Share credentials openly.",
-        "Seguridad y trazabilidad prevalecen sobre la prisa.|Safety and traceability outweigh haste."
+        "Con calor hay 105 kW efectivos y 118 kW de demanda. A libera 10 kW; B añade 16 kW efectivos. Ambas verificadas. ¿Cuál cubre por sí sola el déficit?|Heat leaves 105 effective kW and demand of 118 kW. A frees 10 kW; B adds 16 effective kW. Both verified. Which alone closes the gap?",
+        "B, con 3 kW de margen.|B, with 3 kW headroom.",
+        "A, con 10 kW de margen.|A, with 10 kW headroom.",
+        "Ambas, porque mejoran el balance.|Both, because they improve the balance.",
+        "Déficit 13 kW. A deja 3 kW de déficit; B deja 3 kW de margen.|Shortfall 13 kW. A leaves a 3 kW shortfall; B leaves 3 kW headroom."
       ],
       [
-        "Existe un respaldo pero el personal desconoce el protocolo. ¿Qué falta?|Backup exists but staff do not know the response plan. What is missing?",
-        "Roles, formación y simulacros autorizados.|Roles, training and authorised drills.",
-        "Otro folleto comercial.|Another sales brochure.",
-        "Más potencia sin formar al equipo.|More capacity without staff training.",
-        "La preparación humana es parte de la continuidad.|Human readiness is part of continuity."
+        "Dos respaldos de 90 kW comparten sala. El escenario de inundación inutiliza ambos. Carga: 70 kW. ¿Capacidad superviviente?|Two 90 kW backups share a room. The flood scenario disables both. Load: 70 kW. Surviving capacity?",
+        "0 kW.|0 kW.",
+        "90 kW.|90 kW.",
+        "180 kW.|180 kW.",
+        "El escenario especifica pérdida simultánea; la redundancia frente a fallo individual no cubre exposición común.|The scenario specifies simultaneous loss; redundancy against individual failure does not cover common exposure."
       ],
       [
-        "Una pieza esencial tarda semanas. ¿Qué analizar?|A key replacement part takes weeks. What matters?",
-        "Criticidad, existencias y alternativas cualificadas.|Criticality, inventories and qualified alternatives.",
-        "Esperar siempre a que falle.|Always wait for failure.",
-        "Instalar una pieza no compatible.|Install an incompatible part.",
-        "La logística condiciona el tiempo de recuperación.|Logistics affects recovery time."
+        "Se eleva un generador sobre la cota de inundación, pero cuadro y acceso permanecen expuestos. ¿Qué falta evaluar?|A generator is raised above flood level, but switchboard and access remain exposed. What remains to assess?",
+        "Ruta completa, controles, acceso y recuperación en el mismo escenario.|Full path, controls, access and recovery in the same scenario.",
+        "Solo la altura del generador sobre el agua.|Only generator height above water.",
+        "Solo la potencia nominal del generador.|Only generator rated power.",
+        "Proteger un componente no acredita supervivencia de la cadena completa.|Protecting one component does not establish survival of the entire chain."
       ],
       [
-        "Una tormenta puede cortar la línea exterior y la comunicación con el control remoto. ¿Qué medida aporta resiliencia?|A storm may cut the external feeder and remote-control communications. Which measure supports resilience?",
-        "Evaluar una alimentación alternativa y un modo de control local seguro, con pruebas de pérdida simultánea.|Assess alternative power and safe local control, testing simultaneous loss.",
-        "Contratar otro comercializador sobre la misma línea y mantener solo control remoto.|Contract another retailer on the same feeder and retain remote-only control.",
-        "Probar cada sistema por separado y asumir que nunca fallan juntos.|Test each system separately and assume they never fail together.",
-        "La tormenta puede afectar varias dependencias a la vez. La validación debe incluir el fallo combinado y la recuperación segura.|A storm can affect several dependencies at once. Validation should include combined failure and safe recovery."
+        "Un respaldo arranca sin carga. El servicio necesita 65 kW y admite 45 s de interrupción. ¿Qué prueba falta?|Backup starts without load. Service needs 65 kW and tolerates 45 s interruption. What test is missing?",
+        "Transferencia y funcionamiento autorizados con carga, duración y calidad representativas.|Authorised transfer and operation with representative load, duration and quality.",
+        "Otra prueba de arranque sin carga a distinta temperatura.|Another no-load start test at a different temperature.",
+        "Revisión del historial de mantenimiento y potencia nominal.|Review of maintenance history and rated power.",
+        "El arranque no acredita transferencia en 45 s ni prestación bajo carga.|Start-up does not demonstrate transfer within 45 s or loaded performance."
       ],
       [
-        "Se propone transferir fuentes automáticamente. ¿Qué debe validarse?|Automatic source transfer is proposed. What must be validated?",
-        "Protecciones, enclavamientos y escenarios de fallo.|Protection, interlocks and failure scenarios.",
-        "Ponerlo en producción sin ensayos.|Deploy without testing.",
-        "Retirar controles manuales antes de aprobarlo.|Remove manual controls before approval.",
-        "La automatización exige una validación segura.|Automation requires safe validation."
+        "Durante una tormenta hay potencia disponible, pero falla comunicación con el control. ¿Qué opción permite continuar?|During a storm power is available but control communication fails. Which option permits continuation?",
+        "Modo alternativo autorizado y verificado; si no existe, parada segura.|Authorised and verified fallback mode; if none exists, safe shutdown.",
+        "Mantener el plan porque la potencia está disponible.|Keep the plan because power is available.",
+        "Reiniciar según horario normal sin comprobar controles.|Restart on the normal schedule without checking controls.",
+        "El control forma parte de la cadena. Solo un modo validado cubre esa pérdida.|Controls are part of the chain. Only a validated mode covers that loss."
       ],
       [
-        "Un simulacro descubre fallos de coordinación. ¿Qué hacer?|A drill reveals coordination failures. What should happen?",
-        "Registrar causas, propietarios y acciones correctivas.|Record causes, owners and corrective actions.",
-        "Anunciar éxito perfecto.|Announce perfect success.",
-        "No dejar evidencia del fallo.|Leave no evidence of the failure.",
-        "El aprendizaje real exige cerrar brechas.|Real learning requires closing gaps."
+        "Inspección 3 h; después reparación 6 h y controles 4 h en paralelo; prueba final 2 h tras ambas. ¿Duración mínima?|Inspection 3 h; then repair 6 h and controls 4 h in parallel; final test 2 h after both. Minimum duration?",
+        "11 h.|11 h.",
+        "15 h.|15 h.",
+        "9 h.|9 h.",
+        "3+máximo(6,4)+2=11 h. Sumar ambas tareas da 15 h; elegir la menor ignora una dependencia.|3+max(6,4)+2=11 h. Adding both tasks gives 15 h; choosing the shorter ignores a dependency."
       ],
       [
-        "¿Qué demuestra mejor capacidad de recuperación?|What better demonstrates recoverability?",
-        "Tiempo de restablecimiento ensayado y acciones cerradas.|Tested restoration time and closed actions.",
-        "Número de reuniones.|Number of meetings.",
-        "Presupuesto inicial sin resultados.|Initial budget without outcomes.",
-        "Los resultados verificados superan los compromisos genéricos.|Verified outcomes are stronger than generic commitments."
+        "Objetivo 10 h. Plan: inspección 3 h, reparación 6 h y controles 4 h en paralelo, prueba 2 h. ¿Qué cambio validado cumple?|Target 10 h. Plan: inspection 3 h, repair 6 h and controls 4 h in parallel, test 2 h. Which validated change meets target?",
+        "Reparación de 6 a 5 h.|Repair from 6 to 5 h.",
+        "Controles de 4 a 3 h.|Controls from 4 to 3 h.",
+        "Controles de 4 a 2 h.|Controls from 4 to 2 h.",
+        "3+máximo(5,4)+2=10 h. Reducir controles no acorta la tarea paralela más larga.|3+max(5,4)+2=10 h. Cutting controls does not shorten the longest parallel task."
       ]
     ],
     [
       [
-        "Hora 0: se alerta de un corte prolongado. ¿Qué primero?|Hour 0: a prolonged outage warning arrives. What comes first?",
-        "Activar la coordinación prevista y verificar seguridad.|Activate designated coordination and check safety.",
-        "Esperar al fallo generalizado.|Wait for widespread failure.",
-        "Comunicar normalidad sin verificar.|Announce normality without checks.",
-        "Una activación temprana reduce errores.|Early activation reduces errors."
+        "Hora 0: carga 55 kW, generador 35 kW y batería de 180 kWh útiles con potencia suficiente. ¿Cuánto dura la combinación antes de agotar batería?|Hour 0: load 55 kW, generator 35 kW and battery with 180 usable kWh and sufficient power. How long does combined supply last before battery depletion?",
+        "9 h.|9 h.",
+        "3,27 h.|3.27 h.",
+        "5,14 h.|5.14 h.",
+        "La batería aporta 20 kW: 180/20=9 h. No se divide por demanda total ni por potencia del generador.|Battery supplies 20 kW: 180/20=9 h. Do not divide by total demand or generator power."
       ],
       [
-        "Hora 2: cae la potencia disponible. ¿Qué proteger?|Hour 2: available power declines. What should be protected?",
-        "Cargas esenciales definidas y operaciones seguras.|Defined essential loads and safe operations.",
-        "Todas las cargas hasta agotar reserva.|All loads until backup runs out.",
-        "Solo las áreas más ruidosas.|Only the loudest departments.",
-        "La capacidad limitada exige prioridades objetivas.|Limited capacity demands objective priorities."
+        "Hora 2: 95 kW disponibles. Seguridad y control 25 kW, refrigeración esencial 45 kW, auxiliar aplazable 35 kW. ¿Qué plan cumple?|Hour 2: 95 kW available. Safety and controls 25 kW, essential cooling 45 kW, deferrable auxiliary 35 kW. Which plan meets requirements?",
+        "Aplazar auxiliar: 70 kW y 25 kW de margen.|Defer auxiliary: 70 kW and 25 kW headroom.",
+        "Mantener todas: 105 kW.|Keep all: 105 kW.",
+        "Reducir refrigeración 15 kW sin validar y mantener auxiliar.|Cut cooling by 15 kW without validation and retain auxiliary.",
+        "25+45=70 kW; margen 25 kW. Todas juntas superan capacidad; reducir refrigeración sin validar incumple requisitos.|25+45=70 kW; headroom 25 kW. All together exceed capacity; cutting cooling without validation violates requirements."
       ],
       [
-        "Hora 6: tensión inestable en un sistema sensible. ¿Qué hacer?|Hour 6: voltage instability affects sensitive equipment. What should happen?",
-        "Aplicar la secuencia segura y escalar a responsables.|Follow safe procedures and escalate to owners.",
-        "Ignorar las alertas.|Ignore alerts.",
-        "Desactivar protecciones.|Disable safeguards.",
-        "La presión de producción no justifica riesgos técnicos.|Production pressure cannot justify technical risks."
+        "Hora 6: respaldo suficiente tarda 90 s en transferir. Control admite 20 s. ¿Qué debe comprobarse antes de continuar un ensayo que no tolera esa pérdida?|Hour 6: sufficient backup takes 90 s to transfer. Controls tolerate 20 s. What must be checked before continuing a test that cannot tolerate that loss?",
+        "Transición validada dentro de 20 s o parada segura aprobada.|Validated transfer within 20 s or approved safe shutdown.",
+        "Capacidad energética para el resto de las 72 h, sin revisar transición.|Energy capacity for the remaining 72 h without reviewing transfer.",
+        "Reducción de demanda manteniendo transferencia de 90 s.|Demand reduction retaining 90 s transfer.",
+        "La brecha es temporal: 90 s exceden 20 s. Potencia y energía no garantizan transición.|The gap is timing: 90 s exceeds 20 s. Power and energy do not guarantee transfer."
       ],
       [
-        "Hora 10: quedan 360 kWh útiles y una carga esencial de 45 kW. La reposición se retrasa 12 h. ¿Qué conclusión debes escalar?|Hour 10: 360 usable kWh remain and essential load is 45 kW. Replenishment is delayed 12 h. What conclusion should be escalated?",
-        "Autonomía teórica de 8 h; faltan 4 h de cobertura y se necesita una alternativa autorizada.|Theoretical autonomy is 8 h; 4 h of coverage are missing and an approved alternative is needed.",
-        "Hay cobertura de 12 h porque 360 kWh es una reserva grande.|There is 12 h of coverage because 360 kWh is a large reserve.",
-        "Se puede garantizar continuidad reduciendo cargas críticas sin validación.|Continuity can be guaranteed by reducing critical loads without validation.",
-        "360/45 = 8 h. El déficit temporal es de 4 h bajo demanda constante; no autoriza cambios inseguros.|360/45 = 8 h. The time shortfall is 4 h at constant demand; this does not authorise unsafe changes."
+        "Hora 20: 520 L útiles. Consumo 20 L/h durante 6 h; después 10 L/h. ¿Hora de agotamiento sin reposición?|Hour 20: 520 usable L. Consumption 20 L/h for six hours, then 10 L/h. Depletion hour without replenishment?",
+        "Hora 66.|Hour 66.",
+        "Hora 46.|Hour 46.",
+        "Hora 72.|Hour 72.",
+        "6×20=120 L; quedan 400 L para 40 h. Hora 20+6+40=66; 46 h es autonomía restante.|6×20=120 L; 400 L remain for 40 h. Hour 20+6+40=66; 46 h is remaining autonomy."
       ],
       [
-        "Hora 18: existe sol pero no red. ¿Qué comprobar?|Hour 18: sunlight is available but the grid is down. What should be checked?",
-        "Capacidad de funcionamiento en isla verificada.|Verified islanding capability.",
-        "Suponer que cualquier panel alimenta toda la planta.|Assume any panel powers the whole site.",
-        "Anular protecciones de red.|Bypass grid protection.",
-        "La generación solar no garantiza aislamiento operativo.|Solar generation does not guarantee islanded operation."
+        "Hora 30: 420 L utilizables; reserva mínima 60 L. Consumo 15 L/h. ¿Cuándo se alcanza el umbral?|Hour 30: 420 usable L; minimum reserve 60 L. Consumption 15 L/h. When is threshold reached?",
+        "Hora 54.|Hour 54.",
+        "Hora 58.|Hour 58.",
+        "Hora 24.|Hour 24.",
+        "(420−60)/15=24 h; hora 30+24=54. Hora 58 es agotamiento total.|(420−60)/15=24 h; hour 30+24=54. Hour 58 is total depletion."
       ],
       [
-        "Hora 24: piden reanudar un ensayo no esencial. ¿Qué decides?|Hour 24: a non-essential test is requested. What do you decide?",
-        "Evaluar reserva, prioridad y autorización antes de programarlo.|Assess reserves, priority and approval before scheduling.",
-        "Reactivarlo sin consultar.|Restart without consultation.",
-        "Prohibir cualquier actividad futura.|Ban all future activities.",
-        "Las prioridades se revisan con el escenario.|Priorities should evolve with the scenario."
+        "Hora 36: autonomía hasta reserva mínima 14 h. Entrega entre 10 y 18 h desde ahora. ¿Brecha desfavorable?|Hour 36: autonomy to minimum reserve 14 h. Delivery in 10 to 18 h from now. Adverse gap?",
+        "4 h: umbral a hora 50 y entrega tardía a la 54.|4 h: threshold at hour 50 and late delivery at 54.",
+        "0 h: media de entrega 14 h.|0 h: average delivery 14 h.",
+        "8 h: amplitud del intervalo de entrega.|8 h: delivery window width.",
+        "18−14=4 h. La media oculta la brecha y la amplitud no es el déficit.|18−14=4 h. The midpoint hides the gap and window width is not the shortfall."
       ],
       [
-        "Hora 36: la demanda real sube de 40 a 50 kW. Quedan 200 kWh útiles. ¿Cómo cambia la previsión?|Hour 36: actual demand rises from 40 to 50 kW. 200 usable kWh remain. How does the forecast change?",
-        "De 5 a 4 horas; actualizar el plan y comprobar el nuevo perfil.|From 5 to 4 hours; update the plan and check the new profile.",
-        "De 5 a 6 horas porque aumenta la demanda.|From 5 to 6 hours because demand increases.",
-        "No cambia porque la reserva es la misma.|It does not change because the reserve is unchanged.",
-        "200/40 = 5 h; 200/50 = 4 h. La autonomía es sensible a la demanda.|200/40 = 5 h; 200/50 = 4 h. Autonomy is sensitive to demand."
+        "Hora 42: 180 L medidos, consumo 20 L/h. Entrega prevista en 7 h, no confirmada, posible retraso 5 h. ¿Qué informe permite decidir?|Hour 42: 180 measured L, consumption 20 L/h. Delivery expected in seven hours, unconfirmed, possible five-hour delay. Which report supports decisions?",
+        "Autonomía 9 h; entrega prevista 7 h, tardía 12 h; déficit potencial 3 h. Evaluar alternativa autorizada y próxima revisión.|Autonomy 9 h; expected delivery 7 h, late 12 h; potential 3 h gap. Assess authorised alternative and next review.",
+        "Autonomía 9 h; entrega en 7 h; continuidad garantizada.|Autonomy 9 h; delivery in 7 h; continuity guaranteed.",
+        "Déficit de 5 h por retraso, con independencia de reserva.|5 h shortfall from delay regardless of reserve.",
+        "180/20=9 h. Entrega tardía en 12 h: faltan 3 h. Separa medición y previsión.|180/20=9 h. Late delivery in 12 h: 3 h gap. Separate measurement and forecast."
       ],
       [
-        "Hora 48: llegan instrucciones contradictorias. ¿Qué hacer?|Hour 48: contradictory instructions arrive. What is appropriate?",
-        "Unificar mensajes y documentar decisiones.|Unify messages and log decisions.",
-        "Dejar que cada área improvise.|Let every unit improvise.",
-        "Distribuir rumores.|Spread rumours.",
-        "La coordinación de información es parte de la resiliencia.|Information coordination is part of resilience."
+        "Hora 54: A entrega 50 kW durante 10 h por 4.000 €; B, 45 kW durante 18 h por 3.000 €. Carga 48 kW durante 8 h sin otra fuente. ¿Cuál cumple?|Hour 54: A supplies 50 kW for 10 h for €4,000; B, 45 kW for 18 h for €3,000. Load 48 kW for eight hours with no other source. Which meets requirements?",
+        "A: cubre potencia y duración.|A: meets power and duration.",
+        "B: dura más y cuesta menos.|B: lasts longer and costs less.",
+        "Ambas: superan ocho horas.|Both: exceed eight hours.",
+        "B incumple potencia pese a mayor duración. A satisface ambas restricciones.|B fails power despite longer duration. A satisfies both constraints."
       ],
       [
-        "Hora 60: la red vuelve de forma intermitente. ¿Cómo reanudar?|Hour 60: grid supply returns intermittently. How should service resume?",
-        "Seguir restablecimiento progresivo y seguro verificado.|Use a verified safe staged restoration.",
-        "Arrancar todas las máquinas a la vez.|Restart all machines together.",
-        "Desactivar protecciones para ganar tiempo.|Disable safeguards to save time.",
-        "La recuperación exige coordinación técnica.|Restoration requires technical coordination."
+        "Hora 66: reinicio autorizado, 115 kW disponibles, 80 kW esenciales en marcha. Dos tareas independientes de 30 y 25 kW duran 1 h y vencen en 2 h. ¿Qué secuencia cumple?|Hour 66: restart authorised, 115 kW available, 80 kW essential load running. Two independent tasks of 30 and 25 kW last one hour and are due in two hours. Which sequence meets requirements?",
+        "Una cada hora: 110 y 105 kW.|One each hour: 110 and 105 kW.",
+        "Ambas la primera hora: 135 kW.|Both in first hour: 135 kW.",
+        "Solo la de 30 kW, aplazar la otra más allá del plazo.|Only the 30 kW task, defer the other beyond deadline.",
+        "Margen 35 kW; cada tarea cabe por separado, juntas no. La secuencia cumple plazos.|Headroom 35 kW; each task fits separately, together they do not. Sequential operation meets deadlines."
       ],
       [
-        "Hora 72: termina la crisis. ¿Qué informe sirve?|Hour 72: the event ends. What report is useful?",
-        "Evidencias, impactos, autonomía y plan de acciones.|Evidence, impacts, autonomy and an action plan.",
-        "Un comunicado de éxito sin datos.|A data-free success announcement.",
-        "Solo coste diario de energía.|Only that day's energy cost.",
-        "La mejora convierte las lecciones en medidas con responsables.|Improvement turns lessons into owned actions."
+        "Hora 72: déficit esencial de 12 kW durante 3 h y 8 kW durante 2 h, sin solapamiento. ¿Qué resultado se calcula directamente?|Hour 72: essential shortfall 12 kW for three hours and 8 kW for two hours, without overlap. What result is calculated directly?",
+        "52 kWh no suministrados; analizar funciones para determinar consecuencias.|52 kWh unserved; analyse functions to determine consequences.",
+        "5 h de indisponibilidad de todos los servicios.|5 h of unavailability of all services.",
+        "20 kWh no suministrados.|20 kWh unserved.",
+        "12×3+8×2=52 kWh. Cinco horas son duración de déficit, no indisponibilidad de todas las funciones.|12×3+8×2=52 kWh. Five hours is shortfall duration, not unavailability of all functions."
       ]
     ]
   ]
