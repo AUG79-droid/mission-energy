@@ -1,0 +1,143 @@
+{
+  "1.1": [
+    "aircraft test laboratory instrumentation",
+    "aircraft engine test cell",
+    "aircraft hangar test equipment"
+  ],
+  "1.5": [
+    "diesel generator fuel tank industrial",
+    "industrial diesel fuel storage tanks",
+    "fuel tanker at airport"
+  ],
+  "1.8": [
+    "aircraft ground power unit airport",
+    "industrial battery energy storage system",
+    "ground power unit aircraft"
+  ],
+  "2.1": [
+    "industrial power meter switchboard",
+    "electrical switchboard power meter",
+    "industrial electricity meter"
+  ],
+  "2.5": [
+    "industrial energy meter",
+    "electrical power meter switchboard",
+    "electricity meter panel"
+  ],
+  "2.6": [
+    "industrial ventilation duct plant",
+    "industrial air handling unit",
+    "industrial chiller plant"
+  ],
+  "2.7": [
+    "aircraft maintenance hangar interior",
+    "aircraft maintenance equipment hangar",
+    "aircraft maintenance workshop"
+  ],
+  "2.9": [
+    "industrial pump station motors",
+    "industrial electric motors pumps",
+    "industrial compressor room"
+  ],
+  "3.2": [
+    "flooded electrical substation",
+    "electrical equipment flood damage",
+    "flooded industrial facility"
+  ],
+  "3.5": [
+    "battery energy storage system container",
+    "battery energy storage system rack",
+    "grid scale battery storage"
+  ],
+  "3.6": [
+    "battery energy storage system container",
+    "solar battery microgrid",
+    "battery energy storage installation"
+  ],
+  "3.7": [
+    "battery energy storage system interior",
+    "battery energy storage system rack",
+    "industrial battery storage container"
+  ],
+  "3.8": [
+    "industrial diesel storage tank",
+    "generator fuel tank industrial",
+    "bunded fuel storage tank"
+  ],
+  "4.1": [
+    "industrial inverter cabinet",
+    "photovoltaic inverter station",
+    "power inverter industrial"
+  ],
+  "4.3": [
+    "industrial power transformer cooling radiators",
+    "industrial transformer substation",
+    "power transformer cooling"
+  ],
+  "4.4": [
+    "industrial chiller plant",
+    "industrial cooling system",
+    "industrial air conditioning equipment"
+  ],
+  "4.5": [
+    "flooded electrical substation",
+    "flooded power station",
+    "flooded industrial facility"
+  ],
+  "4.6": [
+    "elevated electrical substation",
+    "elevated transformer flood protection",
+    "generator on raised platform",
+    "electrical equipment elevated"
+  ],
+  "4.8": [
+    "modern electrical grid control room",
+    "power plant control room modern",
+    "electrical distribution control room"
+  ],
+  "4.9": [
+    "electrical switchgear maintenance",
+    "industrial electrical equipment maintenance",
+    "transformer maintenance"
+  ],
+  "5.2": [
+    "aircraft maintenance hangar interior Airbus",
+    "Airbus A400M hangar",
+    "aircraft hangar interior"
+  ],
+  "5.3": [
+    "automatic transfer switch generator",
+    "electrical switchgear cabinet",
+    "uninterruptible power supply industrial"
+  ],
+  "5.4": [
+    "industrial diesel fuel storage tank",
+    "bunded diesel tank",
+    "generator fuel tank"
+  ],
+  "5.5": [
+    "industrial fuel storage tank gauge",
+    "industrial diesel fuel storage tank",
+    "fuel tank farm"
+  ],
+  "5.7": [
+    "industrial fuel storage tank",
+    "power grid control room modern",
+    "fuel depot"
+  ],
+  "5.8": [
+    "mobile diesel generator trailer",
+    "containerized diesel generator",
+    "mobile power generator"
+  ],
+  "5.9": [
+    "Airbus aircraft maintenance hangar",
+    "Airbus A400M hangar",
+    "aircraft maintenance hangar interior"
+  ],
+  "5.10": [
+    "modern power plant control room",
+    "electrical grid control room",
+    "industrial power meter"
+  ]
+}
