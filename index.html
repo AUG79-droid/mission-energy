@@ -25,8 +25,8 @@
 .heroMedia{background:#0c2435;min-height:285px}
 .heroMedia .primaryphoto{object-fit:cover;object-position:center center}
 .qimage{height:290px;max-height:none;aspect-ratio:16/6;object-fit:cover;object-position:center center;background:#0a1c2a}
-.brief .photoFeature{height:300px;object-fit:cover}
-.theoryBanner img{height:290px;object-fit:cover}
+.brief .photoFeature{height:300px;object-fit:contain;background:#0c2739}
+.theoryBanner img{height:290px;object-fit:contain;background:#0c2739}
 .mat img{height:145px;object-fit:cover}
 @media(max-width:800px){.qimage{height:210px}.heroMedia{min-height:0;height:250px}}
 @media(max-width:470px){.qimage{height:170px}.heroMedia{height:190px}}
@@ -162,8 +162,8 @@ if(s.screen==='question'&&s.selected===null&&s.q<10&&s.answers.some(a=>a.m===s.m
 <script src="theory.js?v=3"></script>
 <script src="patch.js?v=resilience3"></script>
 <script src="transfer.js?v=3"></script>
-<script src="question-photos.js?v=editorial2"></script>
-<script src="photos.js?v=editorial2"></script>
+<script src="question-photos.js?v=editorial3"></script>
+<script src="photos.js?v=editorial3"></script>
 <script>render();
 
 </script><script src="./learning-evidence.js?v=3" defer></script>
