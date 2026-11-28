@@ -1,16 +1,16 @@
 [
   [
     {
-      "path": "assets/questions/m01-q01.jpg",
+      "path": "assets/questions/m01-q01-r2.jpg",
       "es": "Ensayo aeronáutico instrumentado",
       "en": "Instrumented aircraft test",
-      "title": "File:Maintenance leads the way (7782814).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Maintenance_leads_the_way_(7782814).jpg",
-      "credit": "U.S. Air Force photo by Senior Airman Thomas Karol",
+      "title": "File:Igniting readiness in the engine test cell (9255818).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Igniting_readiness_in_the_engine_test_cell_(9255818).jpg",
+      "credit": "U.S. Air Force photo by Airman Nathaniel Jackson",
       "license": "Public domain",
       "licenseUrl": "",
-      "sha1": "6ab3681ec3309237fc5347febffffc758da1963c",
-      "query": "FILE:Maintenance leads the way (7782814).jpg"
+      "sha1": "5a5566145751cd2f8ad746301fbdafab9f1c64f3",
+      "query": "aircraft engine test cell"
     },
     {
       "path": "assets/questions/m01-q02.jpg",
@@ -25,40 +25,40 @@
       "query": "diesel generator power plant"
     },
     {
-      "path": "assets/questions/m01-q03.jpg",
+      "path": "assets/questions/m01-q03-r2.jpg",
       "es": "Transformador de distribución",
       "en": "Distribution transformer",
-      "title": "File:Electrical substation in Petrozavodsk.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Electrical_substation_in_Petrozavodsk.jpg",
-      "credit": "Olga1969",
+      "title": "File:Cooling fans in transformer.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cooling_fans_in_transformer.jpg",
+      "credit": "Shivashishpandey35",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "f322ab3a0a4894d71805f44481ce7c46321345a9",
-      "query": "electrical distribution transformer substation"
+      "sha1": "a0456a3640c4d60725a4c7e18294102cf9ed8606",
+      "query": "power transformer cooling"
     },
     {
-      "path": "assets/questions/m01-q04.jpg",
+      "path": "assets/questions/m01-q04-r2.jpg",
       "es": "Baterías industriales",
       "en": "Industrial batteries",
-      "title": "File:Tesvolt Batteriespeicher in Container.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Tesvolt_Batteriespeicher_in_Container.jpg",
-      "credit": "Tomás Freres",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "7925348b78f1228aa51cc2b8310f5e95565857e7",
-      "query": "FILE:Tesvolt Batteriespeicher in Container.jpg"
+      "title": "File:World’s 1st Low-Emission Hybrid Battery Storage, Gas Turbine Peaker System.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:World%E2%80%99s_1st_Low-Emission_Hybrid_Battery_Storage,_Gas_Turbine_Peaker_System.jpg",
+      "credit": "Ysc usc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sha1": "4782c5d24df6f8c19c585426a0f916ee52d6e5f0",
+      "query": "intitle:\"battery storage\""
     },
     {
-      "path": "assets/questions/m01-q05.jpg",
+      "path": "assets/questions/m01-q05-r2.jpg",
       "es": "Logística de combustible",
       "en": "Fuel logistics",
-      "title": "File:U.S. Soldiers with the 325th Brigade Support Battalion, 3rd Brigade Combat Team, 25th Infantry Division grab fuel equipment to begin setting up a Heavy Expendable Mobility Tactical Truck Tanker Aviation 131120-A-UG106-017.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:U.S._Soldiers_with_the_325th_Brigade_Support_Battalion,_3rd_Brigade_Combat_Team,_25th_Infantry_Division_grab_fuel_equipment_to_begin_setting_up_a_Heavy_Expendable_Mobility_Tactical_Truck_Tanker_Aviation_131120-A-UG106-017.jpg",
-      "credit": "Sgt. Daniel Schroeder",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "51502688d73e4aa3d45f4154e658332736d8ff55",
-      "query": "fuel tanker truck airfield"
+      "title": "File:Songshan airport ground vehicles - aviation fuel tanker truck.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Songshan_airport_ground_vehicles_-_aviation_fuel_tanker_truck.jpg",
+      "credit": "CCY18999",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sha1": "19e00f6c57545dd9d842b44f48ce2e272b7d8575",
+      "query": "fuel tanker at airport"
     },
     {
       "path": "assets/questions/m01-q06.jpg",
@@ -73,28 +73,28 @@
       "query": "uninterruptible power supply cabinet"
     },
     {
-      "path": "assets/questions/m01-q07.jpg",
+      "path": "assets/questions/m01-q07-r2.jpg",
       "es": "Inversor de potencia",
       "en": "Power inverter",
-      "title": "File:Solar park inverter and mounts.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Solar_park_inverter_and_mounts.jpg",
-      "credit": "Lauri Veerde",
+      "title": "File:Hard-Schule am See PV-Anlage-WR-01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hard-Schule_am_See_PV-Anlage-WR-01.jpg",
+      "credit": "Asurnipal",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "b4d6d38cf8e60c657313a575984c72bb11126c93",
-      "query": "solar inverter installation"
+      "sha1": "fd29294a34406895a4e48dde7d952aa1a23d47a8",
+      "query": "photovoltaic inverter station"
     },
     {
-      "path": "assets/questions/m01-q08.jpg",
+      "path": "assets/questions/m01-q08-r2.jpg",
       "es": "Equipo de potencia para ensayos",
       "en": "Test power equipment",
-      "title": "File:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277429).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:USAF_partners_with_GM_Defense_to_successfully_power_aircraft_with_Electric_Ground_Power_Unit_(8277429).jpg",
-      "credit": "U.S. Air Force AFRL by Carla Escamilla",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "11cfe7de60be5d1bef28507f55361fd49cadf9d1",
-      "query": "FILE:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277429).jpg"
+      "title": "File:Air-cooled industrial and commercial battery energy storage system.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Air-cooled_industrial_and_commercial_battery_energy_storage_system.jpg",
+      "credit": "Yan lance",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha1": "074bfedf2a82fd85fa14fb94adffe4d124422f4f",
+      "query": "intitle:\"battery energy storage\""
     },
     {
       "path": "assets/questions/m01-q09.jpg",
@@ -109,30 +109,30 @@
       "query": "generator load bank testing"
     },
     {
-      "path": "assets/questions/m01-q10.jpg",
+      "path": "assets/questions/m01-q10-r2.jpg",
       "es": "Instalación de almacenamiento eléctrico",
       "en": "Electrical energy storage facility",
-      "title": "File:Tesvolt battery energy storage system Rheineck.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Tesvolt_battery_energy_storage_system_Rheineck.jpg",
-      "credit": "Kecko from Eastern Switzerland",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sha1": "ec24a1a000d321ce83675dd50d660c61ca7e2da7",
-      "query": "battery storage power station"
+      "title": "File:Nirazuka Battery Storage Power Station 3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nirazuka_Battery_Storage_Power_Station_3.jpg",
+      "credit": "Qurren",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "d320aa78ad03437afb918c9e12b563ab3665a5dd",
+      "query": "intitle:\"battery storage\""
     }
   ],
   [
     {
-      "path": "assets/questions/m02-q01.jpg",
+      "path": "assets/questions/m02-q01-r2.jpg",
       "es": "Medición de potencia",
       "en": "Power measurement",
-      "title": "File:India - Kolkata electricity meters - 3832.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:India_-_Kolkata_electricity_meters_-_3832.jpg",
-      "credit": "Jorge Royan",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sha1": "9fd2f2f167bccd31d986f87d485e162e7cd15e8d",
-      "query": "electrical power meter"
+      "title": "File:Makah National Fish Hatchery (5837249863).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Makah_National_Fish_Hatchery_(5837249863).jpg",
+      "credit": "U.S. Fish & Wildlife Service - Pacific Region's",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha1": "b1527f76ffb14d0568b20b11991d06f4310777fc",
+      "query": "Category:Switchgear"
     },
     {
       "path": "assets/questions/m02-q02.jpg",
@@ -171,64 +171,64 @@
       "query": "FILE:Light Coming Through Doors Of Glenn Research Center Hangar (GRC-2024-C-01550).jpg"
     },
     {
-      "path": "assets/questions/m02-q05.jpg",
+      "path": "assets/questions/m02-q05-r2.jpg",
       "es": "Medición de consumo industrial",
       "en": "Industrial energy metering",
-      "title": "File:Kos-Kos city-Electricity meter-01ASD.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Kos-Kos_city-Electricity_meter-01ASD.jpg",
-      "credit": "Asurnipal",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "056a782a119d0ddfc4c475d9263b1a1d34bfc674",
-      "query": "electricity meter"
+      "title": "File:Smart Meter (10945291434).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Smart_Meter_(10945291434).jpg",
+      "credit": "National Institute of Standards and Technology",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sha1": "602ee4ce4ea53a29a55de6e7f1aeb12b7791d1c7",
+      "query": "Category:Smart meters"
     },
     {
-      "path": "assets/questions/m02-q06.jpg",
+      "path": "assets/questions/m02-q06-r2.jpg",
       "es": "Ventilación de instalaciones",
       "en": "Facility ventilation",
-      "title": "File:Expansive green roof system featuring large industrial ventilation ducts.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Expansive_green_roof_system_featuring_large_industrial_ventilation_ducts.jpg",
-      "credit": "Oleg Yunakov",
+      "title": "File:Air handling units in large commercial building, Brisbane.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_handling_units_in_large_commercial_building,_Brisbane.jpg",
+      "credit": "Kgbo",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "ffd1e6ee3aedb23b2c34eb4f43556f20c5185523",
-      "query": "industrial ventilation system"
+      "sha1": "57d66bcebe135aaa455b0ab6764bdf87d1c4fd51",
+      "query": "Category:Air handling units"
     },
     {
-      "path": "assets/questions/m02-q07.jpg",
+      "path": "assets/questions/m02-q07-r2.jpg",
       "es": "Equipos auxiliares de mantenimiento",
       "en": "Maintenance auxiliary equipment",
-      "title": "File:USS Abraham Lincoln Conducts Ground Support Equipment Maintenance (9719144).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:USS_Abraham_Lincoln_Conducts_Ground_Support_Equipment_Maintenance_(9719144).jpg",
-      "credit": "[null Courtesy]",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "d72ecc9e24f43ed0f5130ab3a759221e74d23966",
-      "query": "aircraft maintenance ground support equipment"
+      "title": "File:Hangar de Iberia Maintenance (5094181494).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hangar_de_Iberia_Maintenance_(5094181494).jpg",
+      "credit": "Curimedia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha1": "56a8b4b6ea2711075007dfd1f87d8a52310f46d4",
+      "query": "Airbus aircraft maintenance hangar"
     },
     {
-      "path": "assets/questions/m02-q08.jpg",
+      "path": "assets/questions/m02-q08-r2.jpg",
       "es": "Registro de ensayos",
       "en": "Test data recording",
-      "title": "File:Control centre in Iru Thermal Power Plant (front).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Control_centre_in_Iru_Thermal_Power_Plant_(front).jpg",
-      "credit": "Lauri Veerde",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "88e36c44d6af2eb3ac34dd2e92c8f84dc1d7a51a",
-      "query": "FILE:Control centre in Iru Thermal Power Plant (front).jpg"
+      "title": "File:CTC01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:CTC01.jpg",
+      "credit": "Javierito92",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sha1": "bdb7e942687ad5f5ad43b0a0197924c09c0807c5",
+      "query": "Category:Control rooms"
     },
     {
-      "path": "assets/questions/m02-q09.jpg",
+      "path": "assets/questions/m02-q09-r2.jpg",
       "es": "Equipos de eficiencia energética",
       "en": "Energy efficiency equipment",
-      "title": "File:Fabrication flight fix it up (5062716).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Fabrication_flight_fix_it_up_(5062716).jpg",
-      "credit": "U.S. Air Force photo by Airman 1st Class Jovante Johnson",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "adca4a93f6c2c6dff8abb17ff568a3b15ef8df07",
-      "query": "FILE:Fabrication flight fix it up (5062716).jpg"
+      "title": "File:Reciprocating Compressor from an Industrial Refrigeration System 2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Reciprocating_Compressor_from_an_Industrial_Refrigeration_System_2.jpg",
+      "credit": "Endora6398",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "b0aa34906b3fecf848707225eb892078637ac875",
+      "query": "industrial compressor room"
     },
     {
       "path": "assets/questions/m02-q10.jpg",
@@ -293,52 +293,52 @@
       "query": "photovoltaic inverter station"
     },
     {
-      "path": "assets/questions/m03-q05.jpg",
+      "path": "assets/questions/m03-q05-r2.jpg",
       "es": "Módulos de almacenamiento",
       "en": "Energy storage modules",
-      "title": "File:Battery Energy Storage System Manufacturers.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Battery_Energy_Storage_System_Manufacturers.jpg",
-      "credit": "Grevault",
+      "title": "File:Shoals Battery Bank.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shoals_Battery_Bank.jpeg",
+      "credit": "Ross Hansen, Shoals Marine Lab Director of Facilities and Planning",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "e8b96afa346edc480b584d8a44cc62d9bfa421d9",
-      "query": "battery energy storage system"
+      "sha1": "bcc85d1eb34d55a6d1bf12aeb18734e5f364c5cd",
+      "query": "Category:Battery banks"
     },
     {
-      "path": "assets/questions/m03-q06.jpg",
+      "path": "assets/questions/m03-q06-r2.jpg",
       "es": "Almacenamiento y generación",
       "en": "Storage and generation",
-      "title": "File:DLA Distribution’s New Microgrid is first of its kind in Navy Region Europe, Africa, Central, aboard NAS Sigonella (9489631).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:DLA_Distribution%E2%80%99s_New_Microgrid_is_first_of_its_kind_in_Navy_Region_Europe,_Africa,_Central,_aboard_NAS_Sigonella_(9489631).jpg",
-      "credit": "U.S. Navy NAS-S by Petty Officer 1st Class Joseph Rolfe",
+      "title": "File:Desert Sunlight Battery Energy Storage System (52945816430).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Desert_Sunlight_Battery_Energy_Storage_System_(52945816430).jpg",
+      "credit": "blmcalifornia",
       "license": "Public domain",
       "licenseUrl": "",
-      "sha1": "1cc8e99fe4b58019e6cf7ef87c6ea3895282e981",
-      "query": "battery storage microgrid"
+      "sha1": "13145bc5127f408e7d9e91c757ab53604ef684b3",
+      "query": "intitle:\"battery energy storage\""
     },
     {
-      "path": "assets/questions/m03-q07.jpg",
+      "path": "assets/questions/m03-q07-r2.jpg",
       "es": "Carga de baterías",
       "en": "Battery charging",
-      "title": "File:Heli 2026-08-11 CPD15 forklift 03.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Heli_2026-08-11_CPD15_forklift_03.jpg",
-      "credit": "P1898",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sha1": "a3b5e8e32af94dbf464802c1b33243b3a41be78c",
-      "query": "forklift battery charging"
+      "title": "File:SBB Weesen - Station & Signal Box (51478899373).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:SBB_Weesen_-_Station_%26_Signal_Box_(51478899373).jpg",
+      "credit": "Kecko from Eastern Switzerland",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha1": "08d501342d35add82cd9f2e50e10a804b8383a99",
+      "query": "Category:Battery banks"
     },
     {
-      "path": "assets/questions/m03-q08.jpg",
+      "path": "assets/questions/m03-q08-r2.jpg",
       "es": "Reserva de combustible",
       "en": "Fuel reserves",
-      "title": "File:Two BNSF Railway diesel fuel storage tanks.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Two_BNSF_Railway_diesel_fuel_storage_tanks.jpg",
-      "credit": "Mr. Satterly",
+      "title": "File:Fuel depot and trains near Matsumoto station (31808).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fuel_depot_and_trains_near_Matsumoto_station_(31808).jpg",
+      "credit": "Syced",
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "sha1": "e8821c9cd36b2e1a387fc6cc4f143a92f7c84d0b",
-      "query": "diesel fuel storage tank"
+      "sha1": "71b75705367eaae1d447f55e3b705cab7f7df782",
+      "query": "fuel depot"
     },
     {
       "path": "assets/questions/m03-q09.jpg",
@@ -367,16 +367,16 @@
   ],
   [
     {
-      "path": "assets/questions/m04-q01.jpg",
+      "path": "assets/questions/m04-q01-r2.jpg",
       "es": "Calor y equipos eléctricos",
       "en": "Heat and electrical equipment",
-      "title": "File:High-voltage transformer 750 kV Трансформатор 750 кВ.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:High-voltage_transformer_750_kV_%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80_750_%D0%BA%D0%92.jpg",
-      "credit": "Novoklimov",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "sha1": "4e76f6e13c5db1199aec8a285c961e048363b103",
-      "query": "power transformer"
+      "title": "File:Mittelschule,20140312-6a.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mittelschule,20140312-6a.jpg",
+      "credit": "Asurnipal",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "6673d718d7b4d94b8c8c5ae67cb351c7804f6868",
+      "query": "photovoltaic inverter station"
     },
     {
       "path": "assets/questions/m04-q02.jpg",
@@ -403,40 +403,40 @@
       "query": "power transformer"
     },
     {
-      "path": "assets/questions/m04-q04.jpg",
+      "path": "assets/questions/m04-q04-r2.jpg",
       "es": "Climatización y demanda",
       "en": "Cooling and demand",
-      "title": "File:De Molen (windmill) and the nuclear power plant cooling tower in Doel, Belgium (DSCF3859).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:De_Molen_(windmill)_and_the_nuclear_power_plant_cooling_tower_in_Doel,_Belgium_(DSCF3859).jpg",
-      "credit": "Trougnouf",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sha1": "ff04e11b381d849a176a6f1473ebca052c36803f",
-      "query": "cooling tower"
+      "title": "File:Chiller Clivet e Climaveneta.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiller_Clivet_e_Climaveneta.jpg",
+      "credit": "Air fans",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "4990a4c7c374188e1a62219ec38e64424e63b830",
+      "query": "Category:Chillers"
     },
     {
-      "path": "assets/questions/m04-q05.jpg",
+      "path": "assets/questions/m04-q05-r2.jpg",
       "es": "Inundación de instalaciones eléctricas",
       "en": "Electrical facility flooding",
-      "title": "File:Jeddah flood.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Jeddah_flood.jpg",
-      "credit": "Yousefmadari at Malayalam Wikipedia",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "ba0100ad7d38ffbae266cad7707b41d7a4822701",
-      "query": "flood damage"
-    },
-    {
-      "path": "assets/questions/m04-q06.jpg",
-      "es": "Protección de instalaciones",
-      "en": "Facility protection",
-      "title": "File:Former School Street substation, July 2015.JPG",
-      "source": "https://commons.wikimedia.org/wiki/File:Former_School_Street_substation,_July_2015.JPG",
-      "credit": "Pi.1415926535",
+      "title": "File:Underwater substation, Cedar Rapids, June 12 2008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Underwater_substation,_Cedar_Rapids,_June_12_2008.jpg",
+      "credit": "en:User:Interiority",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sha1": "8e3c237d4642e60b872dd4a56407a49c2b1aa9dd",
-      "query": "elevated electrical substation"
+      "sha1": "8ffca4229ca35e954c255d83816282d7c90f153c",
+      "query": "flooded electrical substation"
+    },
+    {
+      "path": "assets/questions/m04-q06-r2.jpg",
+      "es": "Protección de instalaciones",
+      "en": "Facility protection",
+      "title": "File:FEMA - 1315 - Photograph by Dave Gatley taken on 02-26-1998 in California.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:FEMA_-_1315_-_Photograph_by_Dave_Gatley_taken_on_02-26-1998_in_California.jpg",
+      "credit": "Dave Gatley",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sha1": "b68c0a268e15b0bf7811134a542bf79b0ed2292b",
+      "query": "flooded electrical substation"
     },
     {
       "path": "assets/questions/m04-q07.jpg",
@@ -451,28 +451,28 @@
       "query": "FILE:Power generator of a hospital data center.jpg"
     },
     {
-      "path": "assets/questions/m04-q08.jpg",
+      "path": "assets/questions/m04-q08-r2.jpg",
       "es": "Control de infraestructura",
       "en": "Infrastructure control",
-      "title": "File:Sloy Hydro Electric Power Station Control Room - geograph.org.uk - 2611229.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Sloy_Hydro_Electric_Power_Station_Control_Room_-_geograph.org.uk_-_2611229.jpg",
-      "credit": "James T M Towill",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "sha1": "3935fe19ab1379a117bceebd770fef6e4f85c43a",
-      "query": "power station control room"
-    },
-    {
-      "path": "assets/questions/m04-q09.jpg",
-      "es": "Inspección y reparación",
-      "en": "Inspection and repair",
-      "title": "File:TPC Department of Power Equipment Repair and Maintenance 20101213.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:TPC_Department_of_Power_Equipment_Repair_and_Maintenance_20101213.jpg",
-      "credit": "Solomon203",
+      "title": "File:Space Power Facility Control Room.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Space_Power_Facility_Control_Room.JPG",
+      "credit": "Illudium Pu-36",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "550a119b5c4ca2c99e226bf015178386b8ca5e4e",
-      "query": "power equipment repair"
+      "sha1": "cc535d37bcbcd70c3be5497a586a2142614d0626",
+      "query": "intitle:\"control room\" power plant"
+    },
+    {
+      "path": "assets/questions/m04-q09-r2.jpg",
+      "es": "Inspección y reparación",
+      "en": "Inspection and repair",
+      "title": "File:Systems testing in the service switchgear room of a power substation located in Queens. (CS179, 08-13-2018) (44048210052).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Systems_testing_in_the_service_switchgear_room_of_a_power_substation_located_in_Queens._(CS179,_08-13-2018)_(44048210052).jpg",
+      "credit": "MTA Capital Construction Mega Projects",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha1": "b753fac4962c0eacec78d8612a76b7cb7c44bba5",
+      "query": "intitle:\"switchgear\" testing"
     },
     {
       "path": "assets/questions/m04-q10.jpg",
@@ -489,64 +489,64 @@
   ],
   [
     {
-      "path": "assets/questions/m05-q01.jpg",
+      "path": "assets/questions/m05-q01-r2.jpg",
       "es": "Suministro de emergencia",
       "en": "Emergency supply",
-      "title": "File:EmergencyPowerGenerator.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:EmergencyPowerGenerator.jpg",
-      "credit": "Raysonho @ Open Grid Scheduler / Grid Engine",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "sha1": "c1da800f7f7b8754c4e52eb9f644f2b8ff885d14",
-      "query": "mobile generator emergency power"
-    },
-    {
-      "path": "assets/questions/m05-q02.jpg",
-      "es": "Funciones esenciales en hangar",
-      "en": "Essential hangar functions",
-      "title": "File:NOAA Aircraft Operations Center Hangar interior.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:NOAA_Aircraft_Operations_Center_Hangar_interior.jpg",
-      "credit": "U.S. National Oceanic and Atmospheric Administration (NOAA)",
+      "title": "File:STM Stirling Generator set.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:STM_Stirling_Generator_set.jpg",
+      "credit": "This is a Wikimedai Commons user page.",
       "license": "Public domain",
       "licenseUrl": "",
-      "sha1": "2d281ee00b3719a0511cabc97e47ad43b6abe06a",
-      "query": "aircraft hangar interior"
+      "sha1": "b23dafedd7722b76b3c51254f0edf153f35defcf",
+      "query": "intitle:\"generator set\""
     },
     {
-      "path": "assets/questions/m05-q03.jpg",
+      "path": "assets/questions/m05-q02-r2.jpg",
+      "es": "Funciones esenciales en hangar",
+      "en": "Essential hangar functions",
+      "title": "File:Jetstar Airbus A320 in a hangar (6768081235).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jetstar_Airbus_A320_in_a_hangar_(6768081235).jpg",
+      "credit": "Jetstar Airways from Melbourne, Australia",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sha1": "39a9c8f201ff25b538d46bc2cdd07799fc93f3ac",
+      "query": "intitle:\"hangar\" Airbus"
+    },
+    {
+      "path": "assets/questions/m05-q03-r2.jpg",
       "es": "Transferencia de suministro",
       "en": "Power transfer",
-      "title": "File:Layout and installation of steel conduit for emergency control switchgear of a power sub-station. (CS179, 10-17-18) (45378842602).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Layout_and_installation_of_steel_conduit_for_emergency_control_switchgear_of_a_power_sub-station._(CS179,_10-17-18)_(45378842602).jpg",
-      "credit": "MTA Capital Construction Mega Projects",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sha1": "3a3747208ed07f1f28877ca6941c37e0437e5487",
-      "query": "emergency power switchgear"
+      "title": "File:4.16kV switchgear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:4.16kV_switchgear.jpg",
+      "credit": "Rsparks3",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha1": "5dc32d372b65d5b4e265fed23e628dab63543344",
+      "query": "Category:Switchgear"
     },
     {
-      "path": "assets/questions/m05-q04.jpg",
+      "path": "assets/questions/m05-q04-r2.jpg",
       "es": "Depósito de combustible",
       "en": "Fuel tank",
-      "title": "File:Outdoor fuel tank.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Outdoor_fuel_tank.jpg",
-      "credit": "W.carter",
+      "title": "File:Generator at Salem station, December 2018.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Generator_at_Salem_station,_December_2018.jpg",
+      "credit": "Tdorante10",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "baa806a10b3e016a39be595a613da6beaaa54438",
-      "query": "fuel storage tanks"
+      "sha1": "c323b38e00ff72fa29789d7947c23d061a3e288a",
+      "query": "generator fuel tank"
     },
     {
-      "path": "assets/questions/m05-q05.jpg",
+      "path": "assets/questions/m05-q05-r2.jpg",
       "es": "Medición de reservas",
       "en": "Reserve measurement",
-      "title": "File:Diesel fuel tank trucks to Petron1.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Diesel_fuel_tank_trucks_to_Petron1.jpg",
-      "credit": "See source file page",
+      "title": "File:Lyttelton Harbour tank farm 146.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Lyttelton_Harbour_tank_farm_146.JPG",
+      "credit": "Schwede66",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "5f44ae3f925ffc3f46e948da73957a3b9b70f649",
-      "query": "diesel fuel tank"
+      "sha1": "fb9ccca3b0e80809fcd21617b9810587b8f76e71",
+      "query": "fuel tank farm"
     },
     {
       "path": "assets/questions/m05-q06.jpg",
@@ -561,52 +561,52 @@
       "query": "fuel tanker truck airport"
     },
     {
-      "path": "assets/questions/m05-q07.jpg",
+      "path": "assets/questions/m05-q07-r2.jpg",
       "es": "Coordinación de emergencia",
       "en": "Emergency coordination",
-      "title": "File:Vandenberg sets up the Emergency Operations Center (200331-F-IZ563-1030).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Vandenberg_sets_up_the_Emergency_Operations_Center_(200331-F-IZ563-1030).jpg",
-      "credit": "Airman 1st Class Hanah Abercrombie",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "35a91f5147dd10c904b2da50ceeb119b7113e6e2",
-      "query": "emergency operations center"
+      "title": "File:Fuel storage tanks at Holes Mouth - geograph.org.uk - 6268099.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fuel_storage_tanks_at_Holes_Mouth_-_geograph.org.uk_-_6268099.jpg",
+      "credit": "Neil Owen",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sha1": "6de3c4d9550b408abf39cd89ae7738312317949f",
+      "query": "industrial fuel storage tank"
     },
     {
-      "path": "assets/questions/m05-q08.jpg",
+      "path": "assets/questions/m05-q08-r2.jpg",
       "es": "Equipos de generación temporal",
       "en": "Temporary generation equipment",
-      "title": "File:Mobile electric generator.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Mobile_electric_generator.jpg",
-      "credit": "LukaszKatlewa",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sha1": "61573ffdb4475fad586fd230bc33ecad5f06e168",
-      "query": "mobile diesel generator trailer"
-    },
-    {
-      "path": "assets/questions/m05-q09.jpg",
-      "es": "Restablecimiento de la actividad",
-      "en": "Restoring operations",
-      "title": "File:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277442).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:USAF_partners_with_GM_Defense_to_successfully_power_aircraft_with_Electric_Ground_Power_Unit_(8277442).jpg",
-      "credit": "U.S. Air Force AFRL by Carla Escamilla",
+      "title": "File:2014 tram tracks replacement in Tallinn 076.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_tram_tracks_replacement_in_Tallinn_076.JPG",
+      "credit": "Dmitry G",
       "license": "Public domain",
       "licenseUrl": "",
-      "sha1": "a2c18a802c96cc9f00093a194bc92c0f8bc2f128",
-      "query": "FILE:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277442).jpg"
+      "sha1": "0d944138a7b826e33357f56900c70c091f0b39d7",
+      "query": "Category:Diesel generators"
     },
     {
-      "path": "assets/questions/m05-q10.jpg",
+      "path": "assets/questions/m05-q09-r2.jpg",
+      "es": "Restablecimiento de la actividad",
+      "en": "Restoring operations",
+      "title": "File:Aeroscopia - A400M.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Aeroscopia_-_A400M.jpg",
+      "credit": "Kuremu Sakura",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "7e13fd133e59182e32afc194b6b6b310ae67dd06",
+      "query": "Airbus A400M hangar"
+    },
+    {
+      "path": "assets/questions/m05-q10-r2.jpg",
       "es": "Revisión de recuperación",
       "en": "Recovery review",
-      "title": "File:DASA - power plant control center 02.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:DASA_-_power_plant_control_center_02.jpg",
-      "credit": "Arnoldius",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sha1": "aed6189ee186260dc9283c436c9845f55458b40c",
-      "query": "power system control center"
+      "title": "File:Power plant control room.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Power_plant_control_room.jpg",
+      "credit": "Magnetic Rahim",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "a442140d1f5d3923522091a0a7d2ee54ea6187d3",
+      "query": "intitle:\"control room\" power plant"
     }
   ]
 ]
