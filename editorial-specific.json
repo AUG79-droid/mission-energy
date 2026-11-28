@@ -1,0 +1,42 @@
+{
+  "battery": [
+    "intitle:\"battery energy storage\"",
+    "intitle:\"battery storage\"",
+    "intitle:\"battery bank\""
+  ],
+  "control": [
+    "intitle:\"control room\" power plant",
+    "intitle:\"control centre\" power",
+    "intitle:\"control room\" grid"
+  ],
+  "switch": [
+    "intitle:\"switchgear\"",
+    "intitle:\"electrical panel\"",
+    "intitle:\"electrical cabinet\""
+  ],
+  "cool": [
+    "intitle:\"air handling unit\"",
+    "intitle:\"chiller\"",
+    "intitle:\"ventilation system\""
+  ],
+  "repair": [
+    "intitle:\"maintenance\" electrical substation",
+    "intitle:\"transformer maintenance\"",
+    "intitle:\"switchgear\" testing"
+  ],
+  "fuel": [
+    "intitle:\"fuel tank\" generator",
+    "intitle:\"diesel tank\"",
+    "intitle:\"fuel storage\""
+  ],
+  "hangar": [
+    "intitle:\"hangar\" Airbus",
+    "intitle:\"aircraft hangar\"",
+    "intitle:\"maintenance hangar\""
+  ],
+  "generator": [
+    "intitle:\"diesel generator\"",
+    "intitle:\"mobile generator\"",
+    "intitle:\"generator set\""
+  ]
+}
