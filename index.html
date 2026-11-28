@@ -49,7 +49,7 @@
 @media(max-width:800px){.energy-start{align-items:stretch;flex-direction:column;padding:18px}.energy-start .btn{width:100%}.energy-steps{grid-template-columns:1fr}}@media print{.energy-start,.energy-route{display:none!important}}
 .energy-score-explanation{margin:12px 0 20px;padding:14px 18px;border-left:3px solid #68c9d0;background:#0d2b3d;border-radius:0 10px 10px 0}.energy-score-explanation p{font-size:16px;line-height:1.5;color:#d5e9f1;margin:0 0 6px}.energy-score-explanation p:last-child{margin-bottom:0}.energy-score-explanation strong{color:#f1fbff}
 .theoryGrid.professional-lesson{grid-template-columns:1fr}.professional-lesson .theorySection{padding:24px 28px}.professional-lesson .theorySection h3{font-size:23px}.professional-lesson .theorySection p{white-space:pre-line;font-size:17px;line-height:1.68;max-width:88ch}.professional-lesson .theorySection li{font-size:16px;line-height:1.6}.professional-lesson .theorySection ul{border-top:1px solid #41677b;padding-top:12px}.qname{font-size:clamp(20px,2.2vw,28px);line-height:1.45}.choices .answerText{line-height:1.5;font-size:16px}.feedback p{line-height:1.6;font-size:16px}@media(max-width:600px){.professional-lesson .theorySection{padding:17px}}
-.questionPhoto{margin:16px 0 20px}.questionPhoto .qimage{display:block;width:100%;object-fit:cover}.questionPhoto figcaption{font-size:12px;color:#b8d2e1;margin-top:6px}.questionPhoto a{color:#a9d9ff}
+.questionPhoto{margin:16px 0 20px}.questionPhoto .qimage{display:block;width:100%;height:clamp(200px,42vw,440px);max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center;background:#0a1c2a}.questionPhoto figcaption{font-size:12px;color:#b8d2e1;margin-top:6px}.questionPhoto a{color:#a9d9ff}
 </style></head>
 <body><header class="top"><div class="topin"><div class="brand"><span class="mark">⚡</span><div><div class="brandtitle">MISSION ENERGY</div><div class="brandsub" id="brandSub"></div></div></div><div class="topact"><button class="mini" data-lang="en">EN</button><button class="mini" data-lang="es">ES</button><button class="mini" data-action="reset" id="resetBtn"></button></div></div></header>
 <div class="wrap"><section class="hero"><div class="heroCopy"><div class="overline">Sustainability in Service</div><h1 id="heroTitle"></h1><p id="heroSub"></p><div class="chips" id="heroChips"></div></div><div class="heroMedia"><img class="primaryphoto" id="heroPhoto" alt="Infraestructura energética conectada con operaciones aeronáuticas"></div></section>
@@ -162,8 +162,8 @@ if(s.screen==='question'&&s.selected===null&&s.q<10&&s.answers.some(a=>a.m===s.m
 <script src="theory.js?v=3"></script>
 <script src="patch.js?v=resilience3"></script>
 <script src="transfer.js?v=3"></script>
-<script src="question-photos.js?v=distinct1"></script>
-<script src="photos.js?v=distinct1"></script>
+<script src="question-photos.js?v=editorial2"></script>
+<script src="photos.js?v=editorial2"></script>
 <script>render();
 
 </script><script src="./learning-evidence.js?v=3" defer></script>

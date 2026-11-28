@@ -1,0 +1,28 @@
+name: Verify curated question photographs
+on:
+  push:
+    branches: [fix/editorial-photo-review]
+    paths: ['editorial-selection.json','scripts/apply-editorial-selection.py','.github/workflows/editorial-final.yml']
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - run: python scripts/apply-editorial-selection.py
+      - run: |
+          npm install --no-save playwright
+          npx playwright install chromium
+          node scripts/check-question-photos.cjs
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets/questions question-photos.js editorial-review
+          git commit -m "Apply reviewed technical photo selections and verify both languages"
+          git push origin HEAD:fix/editorial-photo-review
