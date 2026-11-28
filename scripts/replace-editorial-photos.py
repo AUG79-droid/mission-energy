@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 from io import BytesIO
 ROOT=Path(__file__).resolve().parents[1]
-targets={"1.1":["Rolls-Royce Trent 7000 tested at Arnold Air Force Base Engineering Development Complex.jpg","Banco de ensayo de motor aeronáutico","Aircraft engine test bench"],"2.3":["AIRBUS A400M .jpg","Aeronave Airbus A400M en tierra","Airbus A400M on the ground"],"2.8":["Electric Motor Test Stand Will Help With Future X-planes (AFRC2016-0100-05).jpg","Banco de ensayo eléctrico instrumentado","Instrumented electrical test stand"],"2.10":["Digital Power Analyzer.gif","Instrumento de análisis eléctrico digital","Digital electrical analysis instrument"],"3.5":["Tesvolt Batteriespeicher in Container.jpg","Baterías industriales en contenedor","Industrial containerised batteries"],"4.9":["Generator Transfer Switch Front.jpg","Armario de transferencia para inspección eléctrica","Transfer switch cabinet for electrical inspection"],"5.2":["A 400 M.jpg","Aeronave de transporte A400M","A400M transport aircraft"]}
+targets={"3.5":["Tesla Megapack set of 4 with solar canopy.webp","Módulos industriales de almacenamiento energético","Industrial battery energy storage modules"],"5.2":["Airbus A400M-180 (cn 81, 54+22) 2024-06-09 Andre Gerwing Collection ID 020082.jpg","Aeronave Airbus A400M","Airbus A400M aircraft"]}
 manifest=json.loads((ROOT/'assets/questions/CREDITS.json').read_text())
 def get(url):
     for n in range(4):
@@ -28,7 +28,7 @@ for k,(name,es,en) in targets.items():
     if k=='control':
         path='assets/mission-control-2025.jpg'
     else:
-        i,j=map(int,k.split('.'));path=f'assets/questions/m{i:02d}-q{j:02d}-r5.jpg'
+        i,j=map(int,k.split('.'));path=f'assets/questions/m{i:02d}-q{j:02d}-r6.jpg'
     im.save(ROOT/path,quality=90,optimize=True)
     p={'path':path,'es':es,'en':en,'title':page['title'],'source':info['descriptionurl'],'credit':val('Artist') or val('Credit'),'license':lic,'licenseUrl':meta.get('LicenseUrl',{}).get('value',''),'sha1':info['sha1'],'query':'FILE:'+name,'modification':'Resized / redimensionada'}
     used.add(info['sha1'])
