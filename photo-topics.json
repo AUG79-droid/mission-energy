@@ -1,0 +1,428 @@
+[
+  [
+    [
+      "Ensayo aeronáutico instrumentado",
+      "Instrumented aircraft test",
+      "FILE:Maintenance leads the way (7782814).jpg",
+      "aircraft test instrumentation hangar",
+      "aircraft ground test equipment",
+      "aircraft hangar",
+      "MATCH:aircraft|hangar|test rig|wind tunnel"
+    ],
+    [
+      "Alimentación eléctrica de respaldo",
+      "Backup electrical supply",
+      "emergency power generator industrial",
+      "diesel generator power plant",
+      "diesel generator",
+      "MATCH:generator|genset|standby power"
+    ],
+    [
+      "Transformador de distribución",
+      "Distribution transformer",
+      "electrical distribution transformer substation",
+      "power transformer substation",
+      "power transformer",
+      "MATCH:transformer|substation"
+    ],
+    [
+      "Baterías industriales",
+      "Industrial batteries",
+      "FILE:Tesvolt Batteriespeicher in Container.jpg",
+      "battery energy storage system container",
+      "industrial battery bank",
+      "battery energy storage",
+      "MATCH:batter|energy storage|bess"
+    ],
+    [
+      "Logística de combustible",
+      "Fuel logistics",
+      "fuel tanker truck airfield",
+      "fuel tanker delivery",
+      "airport refueling",
+      "MATCH:fuel|tanker|refuel"
+    ],
+    [
+      "Sistemas de alimentación ininterrumpida",
+      "Uninterruptible power systems",
+      "uninterruptible power supply cabinet",
+      "UPS battery room",
+      "uninterruptible power supply",
+      "MATCH:ups|uninterruptible|battery room|eps 6000"
+    ],
+    [
+      "Inversor de potencia",
+      "Power inverter",
+      "industrial power inverter cabinet",
+      "solar inverter installation",
+      "solar inverter",
+      "MATCH:inverter|converter"
+    ],
+    [
+      "Equipo de potencia para ensayos",
+      "Test power equipment",
+      "FILE:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277429).jpg",
+      "aircraft ground power unit",
+      "ground support power equipment",
+      "ground power unit",
+      "MATCH:ground power|gpu|ground support"
+    ],
+    [
+      "Prueba de carga eléctrica",
+      "Electrical load testing",
+      "generator load bank testing",
+      "electrical load bank",
+      "load bank",
+      "MATCH:load bank|load test|generator"
+    ],
+    [
+      "Instalación de almacenamiento eléctrico",
+      "Electrical energy storage facility",
+      "grid battery storage facility",
+      "battery storage power station",
+      "battery storage",
+      "MATCH:batter|energy storage|bess"
+    ]
+  ],
+  [
+    [
+      "Medición de potencia",
+      "Power measurement",
+      "industrial electricity meter panel",
+      "electrical power meter",
+      "electricity meter",
+      "MATCH:meter|multimeter|power measurement"
+    ],
+    [
+      "Equipos de climatización industrial",
+      "Industrial HVAC equipment",
+      "industrial air conditioning chiller",
+      "industrial cooling equipment",
+      "chiller",
+      "MATCH:chiller|hvac|air conditioning|cooling"
+    ],
+    [
+      "Planificación de trabajos en hangar",
+      "Hangar work planning",
+      "aircraft maintenance hangar technicians",
+      "aircraft maintenance workshop",
+      "aircraft maintenance",
+      "MATCH:aircraft maintenance|hangar|maintenance workshop"
+    ],
+    [
+      "Iluminación nocturna de hangar",
+      "Night hangar lighting",
+      "FILE:Light Coming Through Doors Of Glenn Research Center Hangar (GRC-2024-C-01550).jpg",
+      "aircraft hangar at night interior",
+      "hangar lighting",
+      "hangar interior",
+      "MATCH:hangar|lighting|airport terminal"
+    ],
+    [
+      "Medición de consumo industrial",
+      "Industrial energy metering",
+      "electricity meter industrial installation",
+      "electric meter cabinet",
+      "electricity meter",
+      "MATCH:meter|metering|electricity counter"
+    ],
+    [
+      "Ventilación de instalaciones",
+      "Facility ventilation",
+      "industrial ventilation fans ducts",
+      "industrial ventilation system",
+      "ventilation fan",
+      "MATCH:ventilat|fan|duct|air handling"
+    ],
+    [
+      "Equipos auxiliares de mantenimiento",
+      "Maintenance auxiliary equipment",
+      "aircraft maintenance ground support equipment",
+      "aircraft maintenance equipment",
+      "ground support equipment",
+      "MATCH:ground support|aircraft maintenance|maintenance equipment"
+    ],
+    [
+      "Registro de ensayos",
+      "Test data recording",
+      "FILE:Control centre in Iru Thermal Power Plant (front).jpg",
+      "control room power station",
+      "control room",
+      "MATCH:control room|control cent"
+    ],
+    [
+      "Equipos de eficiencia energética",
+      "Energy efficiency equipment",
+      "FILE:Fabrication flight fix it up (5062716).jpg",
+      "industrial pump",
+      "electric motor industrial",
+      "MATCH:industrial pump|electric motor|power unit"
+    ],
+    [
+      "Comprobación de instalaciones eléctricas",
+      "Electrical installation verification",
+      "FILE:Performing relay trip check and setting on a switchgear cabinet at a power facility in Queens. 10-01-2019 (48843694488).jpg",
+      "electrician electrical panel testing",
+      "electrical technician switchgear",
+      "electrical switchgear",
+      "MATCH:switchgear|relay|electrician|electrical panel|electrical test"
+    ]
+  ],
+  [
+    [
+      "Fuentes de suministro eléctrico",
+      "Electrical supply sources",
+      "FILE:Distribution substation switchgear.jpg",
+      "electrical substation switchgear",
+      "power distribution switchgear",
+      "electrical substation",
+      "MATCH:switchgear|substation|distribution"
+    ],
+    [
+      "Infraestructura expuesta a inundaciones",
+      "Flood-exposed infrastructure",
+      "flooded electrical substation",
+      "flooded power station",
+      "flooded buildings",
+      "MATCH:flood|inundat|storm damage"
+    ],
+    [
+      "Generación solar",
+      "Solar generation",
+      "FILE:Rooftop Solar at Northampton Airport (11353930316).jpg",
+      "solar photovoltaic farm",
+      "solar power plant",
+      "solar farm",
+      "MATCH:solar|photovoltaic"
+    ],
+    [
+      "Inversores solares",
+      "Solar inverters",
+      "photovoltaic inverter station",
+      "solar inverter cabinet",
+      "solar inverter",
+      "MATCH:inverter|converter"
+    ],
+    [
+      "Módulos de almacenamiento",
+      "Energy storage modules",
+      "battery energy storage system",
+      "battery storage",
+      "battery bank",
+      "MATCH:energy storage|battery storage|battery bank|bess|batteries"
+    ],
+    [
+      "Almacenamiento y generación",
+      "Storage and generation",
+      "battery storage microgrid",
+      "battery energy storage container",
+      "battery storage",
+      "MATCH:batter|energy storage|microgrid"
+    ],
+    [
+      "Carga de baterías",
+      "Battery charging",
+      "forklift battery charging",
+      "battery charging station",
+      "electric forklift",
+      "battery storage",
+      "MATCH:forklift|battery storage|energy storage|battery charging"
+    ],
+    [
+      "Reserva de combustible",
+      "Fuel reserves",
+      "diesel fuel storage tank",
+      "fuel storage tanks",
+      "fuel storage tank",
+      "MATCH:fuel|diesel|storage tank"
+    ],
+    [
+      "Producción de combustibles alternativos",
+      "Alternative fuel production",
+      "ethanol plant",
+      "biodiesel plant",
+      "ethanol production",
+      "biofuel refinery",
+      "ethanol",
+      "MATCH:ethanol|biodiesel|biofuel|refinery"
+    ],
+    [
+      "Instalación energética industrial",
+      "Industrial energy installation",
+      "diesel generator",
+      "generator power station",
+      "generator hall",
+      "MATCH:generator|genset|power station"
+    ]
+  ],
+  [
+    [
+      "Calor y equipos eléctricos",
+      "Heat and electrical equipment",
+      "industrial inverter cooling",
+      "electrical equipment cooling fans",
+      "power transformer",
+      "MATCH:inverter|cooling|transformer|electrical cabinet"
+    ],
+    [
+      "Infraestructura solar y riesgo de inundación",
+      "Solar infrastructure and flood risk",
+      "solar farm flood",
+      "solar panels flooding",
+      "solar farm",
+      "MATCH:flood|solar|photovoltaic"
+    ],
+    [
+      "Refrigeración de equipos de potencia",
+      "Power equipment cooling",
+      "electrical transformer cooling radiators",
+      "transformer cooling system",
+      "power transformer",
+      "MATCH:transformer|radiator|cooling"
+    ],
+    [
+      "Climatización y demanda",
+      "Cooling and demand",
+      "cooling tower",
+      "chiller",
+      "air conditioning",
+      "MATCH:chiller|cooling tower|air conditioning"
+    ],
+    [
+      "Inundación de instalaciones eléctricas",
+      "Electrical facility flooding",
+      "electrical substation flood damage",
+      "flooded electrical equipment",
+      "flood damage",
+      "MATCH:flood|inundat|storm damage"
+    ],
+    [
+      "Protección de instalaciones",
+      "Facility protection",
+      "elevated electrical substation",
+      "raised electrical equipment flood",
+      "electrical substation",
+      "MATCH:substation|switchgear|electrical equipment"
+    ],
+    [
+      "Ensayo de grupo electrógeno",
+      "Generator testing",
+      "FILE:Power generator of a hospital data center.jpg",
+      "technician generator testing",
+      "diesel generator maintenance",
+      "diesel generator",
+      "MATCH:generator|genset"
+    ],
+    [
+      "Control de infraestructura",
+      "Infrastructure control",
+      "FILE:Control centre in Iru Thermal Power Plant (front).jpg",
+      "electrical grid control room",
+      "power station control room",
+      "power plant control room",
+      "MATCH:control room|control cent|dispatch"
+    ],
+    [
+      "Inspección y reparación",
+      "Inspection and repair",
+      "electrical substation maintenance workers",
+      "power equipment repair",
+      "electrical maintenance",
+      "MATCH:maintenance|repair|substation|electrician"
+    ],
+    [
+      "Verificación de protecciones",
+      "Protection verification",
+      "electrical relay testing",
+      "switchgear maintenance technician",
+      "electrical switchgear",
+      "MATCH:relay|switchgear|electrical test|electrician"
+    ]
+  ],
+  [
+    [
+      "Suministro de emergencia",
+      "Emergency supply",
+      "mobile generator emergency power",
+      "portable generator industrial",
+      "diesel generator",
+      "MATCH:generator|genset|emergency power"
+    ],
+    [
+      "Funciones esenciales en hangar",
+      "Essential hangar functions",
+      "aircraft hangar interior",
+      "aircraft maintenance hangar",
+      "aircraft hangar",
+      "FILE:A 400 M.jpg",
+      "MATCH:hangar|aircraft maintenance"
+    ],
+    [
+      "Transferencia de suministro",
+      "Power transfer",
+      "FILE:Electrical switchgear.JPG",
+      "automatic transfer switch electrical",
+      "emergency power switchgear",
+      "electrical switchgear",
+      "MATCH:switchgear|transfer switch|distribution board"
+    ],
+    [
+      "Depósito de combustible",
+      "Fuel tank",
+      "fuel storage tanks",
+      "diesel fuel tank",
+      "fuel tank farm",
+      "fuel tank",
+      "MATCH:fuel|diesel|tank farm"
+    ],
+    [
+      "Medición de reservas",
+      "Reserve measurement",
+      "diesel fuel tank",
+      "fuel storage tanks",
+      "fuel tank farm",
+      "fuel tank",
+      "MATCH:fuel|diesel|tank farm"
+    ],
+    [
+      "Transporte de combustible",
+      "Fuel transport",
+      "fuel tanker truck airport",
+      "aviation fuel truck",
+      "fuel truck",
+      "MATCH:fuel|tanker|refuel"
+    ],
+    [
+      "Coordinación de emergencia",
+      "Emergency coordination",
+      "emergency operations center",
+      "operations control room",
+      "control room",
+      "MATCH:operations cent|control room|control cent"
+    ],
+    [
+      "Equipos de generación temporal",
+      "Temporary generation equipment",
+      "mobile diesel generator trailer",
+      "temporary power generator",
+      "mobile generator",
+      "MATCH:generator|genset|temporary power"
+    ],
+    [
+      "Restablecimiento de la actividad",
+      "Restoring operations",
+      "FILE:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277442).jpg",
+      "aircraft maintenance",
+      "aircraft hangar",
+      "MATCH:aircraft maintenance|aircraft technicians|hangar"
+    ],
+    [
+      "Revisión de recuperación",
+      "Recovery review",
+      "electrical grid operations center",
+      "power system control center",
+      "control room",
+      "MATCH:control room|control cent|dispatch"
+    ]
+  ]
+]

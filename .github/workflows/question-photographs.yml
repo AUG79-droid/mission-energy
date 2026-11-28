@@ -1,0 +1,30 @@
+name: Acquire distinct question photographs
+on:
+  push:
+    branches: [fix/distinct-question-photographs]
+    paths: ['photo-topics.json', 'scripts/acquire-question-photos.py', '.github/workflows/question-photographs.yml']
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - run: python scripts/acquire-question-photos.py
+      - name: Verify both language journeys and photo loading
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium
+          node scripts/check-question-photos.cjs
+      - name: Commit verified assets to candidate branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/questions question-photos.js
+          git commit -m "Add fifty distinct licensed question photographs"
+          git push origin HEAD:fix/distinct-question-photographs
