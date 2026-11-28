@@ -145,18 +145,19 @@
     [
       "Registro de ensayos",
       "Test data recording",
-      "test control room aerospace",
-      "power plant control room",
-      "control room industrial",
+      "FILE:Control centre in Iru Thermal Power Plant (front).jpg",
+      "control room power station",
+      "control room",
       "MATCH:control room|control cent"
     ],
     [
       "Equipos de eficiencia energética",
       "Energy efficiency equipment",
-      "industrial electric motor factory",
-      "industrial electric motor pump",
-      "electric motor industrial",
-      "MATCH:electric motor|industrial motor|motor pump|frequency converter"
+      "industrial pump motor",
+      "electric motor",
+      "industrial pump",
+      "electric motors",
+      "MATCH:motor|pump|drive"
     ],
     [
       "Comprobación de instalaciones eléctricas",
@@ -206,10 +207,10 @@
     [
       "Módulos de almacenamiento",
       "Energy storage modules",
-      "battery energy storage system container",
-      "grid battery storage system",
-      "battery energy storage",
-      "MATCH:energy storage|battery storage|battery bank|bess"
+      "battery energy storage system",
+      "battery storage",
+      "battery bank",
+      "MATCH:energy storage|battery storage|battery bank|bess|batteries"
     ],
     [
       "Almacenamiento y generación",
@@ -222,10 +223,11 @@
     [
       "Carga de baterías",
       "Battery charging",
-      "industrial battery charging forklift",
-      "electric forklift charging station",
-      "battery energy storage system",
-      "MATCH:forklift|energy storage|battery storage|battery charging station"
+      "forklift battery charging",
+      "battery charging station",
+      "electric forklift",
+      "battery storage",
+      "MATCH:forklift|battery storage|energy storage|battery charging"
     ],
     [
       "Reserva de combustible",
@@ -238,18 +240,19 @@
     [
       "Producción de combustibles alternativos",
       "Alternative fuel production",
-      "ethanol production plant",
-      "biodiesel refinery",
-      "biofuel refinery",
       "ethanol plant",
-      "MATCH:ethanol plant|biodiesel plant|biofuel plant|ethanol production|refinery"
+      "biodiesel plant",
+      "ethanol production",
+      "biofuel refinery",
+      "ethanol",
+      "MATCH:ethanol|biodiesel|biofuel|refinery"
     ],
     [
       "Instalación energética industrial",
       "Industrial energy installation",
-      "diesel power generator industrial",
-      "power station generator hall",
       "diesel generator",
+      "generator power station",
+      "generator hall",
       "MATCH:generator|genset|power station"
     ]
   ],
@@ -281,9 +284,9 @@
     [
       "Climatización y demanda",
       "Cooling and demand",
-      "industrial chiller",
-      "cooling tower power plant",
-      "air conditioning chiller",
+      "cooling tower",
+      "chiller",
+      "air conditioning",
       "MATCH:chiller|cooling tower|air conditioning"
     ],
     [
@@ -349,8 +352,9 @@
     [
       "Funciones esenciales en hangar",
       "Essential hangar functions",
-      "aircraft maintenance hangar",
-      "aircraft maintenance hangar interior",
+      "aircraft maintenance",
+      "aircraft hangar",
+      "hangar aircraft",
       "MATCH:aircraft maintenance|hangar"
     ],
     [
@@ -365,18 +369,20 @@
     [
       "Depósito de combustible",
       "Fuel tank",
-      "diesel fuel storage tank",
-      "fuel storage tanks industrial",
+      "fuel storage tanks",
+      "diesel fuel tank",
       "fuel tank farm",
-      "MATCH:fuel storage|diesel tank|fuel tank|tank farm"
+      "fuel tank",
+      "MATCH:fuel|diesel|tank farm"
     ],
     [
       "Medición de reservas",
       "Reserve measurement",
-      "fuel storage tank industrial",
-      "diesel storage tank",
+      "diesel fuel tank",
+      "fuel storage tanks",
       "fuel tank farm",
-      "MATCH:fuel storage|diesel tank|fuel tank|tank farm"
+      "fuel tank",
+      "MATCH:fuel|diesel|tank farm"
     ],
     [
       "Transporte de combustible",
@@ -389,9 +395,9 @@
     [
       "Coordinación de emergencia",
       "Emergency coordination",
-      "emergency operations center control room",
-      "emergency operations center staff",
-      "power grid control room",
+      "emergency operations center",
+      "operations control room",
+      "control room",
       "MATCH:operations cent|control room|control cent"
     ],
     [
@@ -405,9 +411,9 @@
     [
       "Restablecimiento de la actividad",
       "Restoring operations",
-      "aircraft maintenance technicians hangar",
-      "aircraft maintenance hangar technicians",
+      "FILE:USAF partners with GM Defense to successfully power aircraft with Electric Ground Power Unit (8277442).jpg",
       "aircraft maintenance",
+      "aircraft hangar",
       "MATCH:aircraft maintenance|aircraft technicians|hangar"
     ],
     [
