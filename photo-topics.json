@@ -153,11 +153,10 @@
     [
       "Equipos de eficiencia energética",
       "Energy efficiency equipment",
-      "industrial pump motor",
-      "electric motor",
+      "FILE:Fabrication flight fix it up (5062716).jpg",
       "industrial pump",
-      "electric motors",
-      "MATCH:motor|pump|drive"
+      "electric motor industrial",
+      "MATCH:industrial pump|electric motor|power unit"
     ],
     [
       "Comprobación de instalaciones eléctricas",
@@ -352,10 +351,11 @@
     [
       "Funciones esenciales en hangar",
       "Essential hangar functions",
-      "aircraft maintenance",
+      "aircraft hangar interior",
+      "aircraft maintenance hangar",
       "aircraft hangar",
-      "hangar aircraft",
-      "MATCH:aircraft maintenance|hangar"
+      "FILE:A 400 M.jpg",
+      "MATCH:hangar|aircraft maintenance"
     ],
     [
       "Transferencia de suministro",

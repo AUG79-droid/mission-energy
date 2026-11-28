@@ -11,7 +11,7 @@ UA='MissionEnergyEducational/3.1 (https://github.com/AUG79-droid/mission-energy;
 used=set()
 hashes=[]
 manifest=[]
-REPLACE=["2.8","2.9","3.5","3.7","3.9","3.10","4.4","5.2","5.4","5.5","5.7","5.9"]
+REPLACE=["2.9","5.2"]
 previous=json.loads((DEST/'CREDITS.json').read_text())
 def get(url):
     for attempt in range(4):
@@ -55,7 +55,7 @@ for i,group in enumerate(TOPICS):
                 val=lambda k:clean(meta.get(k,{}).get('value',''))
                 license=val('LicenseShortName')
                 title=page.get('title','')
-                if re.search(r'\b(EFTA\d*|historic district|museum|archive|194[0-9]|195[0-9]|196[0-9]|197[0-9]|chemical agent|weapon|portrait|ribbon cutting|under construction|Mazda|Nikon|Bosch VCC|microbial|LCCN|Bulltofta|Junkers|former|historic|Chickamauga|thermal storage|museum)\b',title,re.I):continue
+                if re.search(r'\b(EFTA\d*|historic district|museum|archive|194[0-9]|195[0-9]|196[0-9]|197[0-9]|chemical agent|weapon|portrait|ribbon cutting|under construction|Mazda|Nikon|Bosch VCC|microbial|LCCN|Bulltofta|Junkers|former|historic|Chickamauga|thermal storage|museum|bus stop|Medion|capstan|video recorder|under construction|airport terminal)\b',title,re.I):continue
                 if not q.startswith('FILE:') and not re.search(pattern,title,re.I):continue
                 if info.get('mime') not in ('image/jpeg','image/webp') or info.get('width',0)<700 or info.get('height',0)<400 or info.get('width',0)/max(1,info.get('height',1))<1.0:continue
                 if not re.match(r'^(CC BY(?:-SA)? |CC0|Public domain|PD)',license,re.I):continue

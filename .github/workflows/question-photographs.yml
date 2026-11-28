@@ -16,6 +16,11 @@ jobs:
           python-version: '3.12'
       - run: pip install Pillow
       - run: python scripts/acquire-question-photos.py
+      - name: Verify both language journeys and photo loading
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium
+          node scripts/check-question-photos.cjs
       - name: Commit verified assets to candidate branch
         run: |
           git config user.name "github-actions[bot]"
