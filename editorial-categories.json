@@ -1,0 +1,81 @@
+{
+  "batteries": [
+    "Battery energy storage systems",
+    "Battery storage power stations",
+    "Battery banks",
+    "Grid energy storage",
+    "Energy storage",
+    "Lithium-ion batteries"
+  ],
+  "generators": [
+    "Diesel generators",
+    "Generator sets",
+    "Mobile generators",
+    "Electric generators",
+    "Emergency power generators"
+  ],
+  "switchgear": [
+    "Electrical switchgear",
+    "Switchgear",
+    "Electrical cabinets",
+    "Distribution boards",
+    "Electrical control panels",
+    "Electrical substations"
+  ],
+  "meters": [
+    "Electricity meters",
+    "Digital electricity meters",
+    "Smart meters",
+    "Electrical measuring instruments",
+    "Power meters"
+  ],
+  "controls": [
+    "Control rooms",
+    "Control rooms of power plants",
+    "Control rooms of hydroelectric power plants",
+    "Control rooms of industrial plants",
+    "Network operations centers",
+    "Data centers"
+  ],
+  "tanks": [
+    "Fuel tanks",
+    "Oil storage tanks",
+    "Tank farms",
+    "Fuel storage",
+    "Aboveground storage tanks",
+    "Diesel fuel tanks"
+  ],
+  "hangars": [
+    "Aircraft hangars",
+    "Aircraft maintenance",
+    "Aircraft maintenance hangars",
+    "Airbus A400M Atlas",
+    "Airbus A400M Atlas on ground"
+  ],
+  "cooling": [
+    "Air handling units",
+    "Chillers",
+    "HVAC",
+    "Industrial fans",
+    "Cooling systems",
+    "Ventilation ducts"
+  ],
+  "transformers": [
+    "Power transformers",
+    "Electrical substations",
+    "Distribution transformers",
+    "Transformer stations"
+  ],
+  "ups": [
+    "Uninterruptible power supplies",
+    "Power inverters",
+    "Photovoltaic inverters",
+    "Automatic transfer switches"
+  ],
+  "flood": [
+    "Flooded buildings",
+    "Flood damage",
+    "Floods and electrical infrastructure",
+    "Flooded electrical substations"
+  ]
+}
