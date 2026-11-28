@@ -1,0 +1,9 @@
+# Mission Energy professional rewrite — draft
+
+This candidate replaces lesson 1 and its ten decisions. Lessons 2–5, the pre/post assessment and professional transfer still require rewriting and alignment before release. Do not merge or deploy this partial curriculum. The course uses fictional data, not Airbus data or operating instructions.
+
+Learning design: concept explanation → aerospace example → calculation or decision method → reasoned feedback. Distractors represent realistic wrong assumptions or incomplete analyses. No answer is intended to depend on specialist prior knowledge not covered by theory. The first lesson differentiates energy security, reliability, continuity and resilience; maps common dependencies; evaluates tolerable interruptions; calculates power and energy constraints; and formulates evidence-bounded claims.
+
+Public references: IEA, [Analytical frameworks for electricity security](https://www.iea.org/reports/analytical-frameworks-for-electricity-security); [Electricity security matters more than ever](https://www.iea.org/reports/power-systems-in-transition/electricity-security-matters-more-than-ever); US DOE, [Solar and resilience basics](https://www.energy.gov/cmei/systems/solar-and-resilience-basics). Original synthetic examples; no data about real installations.
+
+Before release: redesign remaining 20 sections and 40 decisions; revise and version pre/post and transfer instruments and Navigator consolidation; ensure old results are not rescored against new questions; review with energy specialists; validate both language journeys, accessibility, mobile layout and exports.

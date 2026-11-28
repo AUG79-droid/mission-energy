@@ -7,7 +7,7 @@ const energyLessons=L.map(group=>group.map(part=>({
  heading:energyPair(part[0]),body:energyPair(part[1]),
  bullets:{es:part.slice(2).map(t=>energyPair(t).es),en:part.slice(2).map(t=>energyPair(t).en)}
 })));
-const ENERGY_TAGS=[[[0,1],[0,1],[0,1],[1,3],[0,1],[0,2],[1],[1],[0,2],[0,3]],[[0,1,2],[2,3],[1,3],[3],[3],[0,2],[1,3],[3],[0,1,3],[0,2,3]],[[0,1,2],[1],[0,1],[1],[0,1,2],[1,2],[0,1],[1,3],[2,3],[0,1,3]],[[0,2],[0,1,2],[0,2],[2],[0,2],[0,1],[0,1,2],[2],[0,2,3],[0,2]],[[0,2],[0,2],[2],[0,1],[1,2],[0,1,2],[1,3],[0,2],[0,2],[0,3]]];
+const ENERGY_TAGS=[[[0,1,2],[0,1,3],[0,1],[1,3],[0,1],[0,2],[0,1],[1,3],[0,2,3],[0,1,3]],[[0,1,2],[2,3],[1,3],[3],[3],[0,2],[1,3],[3],[0,1,3],[0,2,3]],[[0,1,2],[1],[0,1],[1],[0,1,2],[1,2],[0,1],[1,3],[2,3],[0,1,3]],[[0,2],[0,1,2],[0,2],[2],[0,2],[0,1],[0,1,2],[2],[0,2,3],[0,2]],[[0,2],[0,2],[2],[0,1],[1,2],[0,1,2],[1,3],[0,2],[0,2],[0,3]]];
 const energyMissions=E.rows.map((rows,i)=>({
  id:["supply-shock","critical-demand","supply-diversity","infrastructure","72h-challenge"][i],
  title:{es:energyMeta[i][0],en:energyMeta[i][1]},
@@ -163,3 +163,6 @@ Object.assign(T.es,{lessonOverview:"En esta lección"});Object.assign(T.en,{less
 
 Object.assign(T.es,{missionDecisions:"decisiones",missionPractice:"Pon en práctica lo aprendido en la lección."});
 Object.assign(T.en,{missionDecisions:"decisions",missionPractice:"Put what you learned in the lesson into practice."});
+
+SOURCES.push({es:"DOE · Energía solar y resiliencia",en:"DOE · Solar and resilience basics",url:"https://www.energy.gov/cmei/systems/solar-and-resilience-basics"});
+SOURCES.push({es:"IEA · Fundamentos de seguridad eléctrica",en:"IEA · Electricity security fundamentals",url:"https://www.iea.org/reports/power-systems-in-transition/electricity-security-matters-more-than-ever"});
