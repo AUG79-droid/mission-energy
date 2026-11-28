@@ -297,17 +297,16 @@
       "query": "photovoltaic inverter station"
     },
     {
-      "path": "assets/questions/m03-q05-r6.jpg",
-      "es": "Módulos industriales de almacenamiento energético",
-      "en": "Industrial battery energy storage modules",
-      "title": "File:Tesla Megapack set of 4 with solar canopy.webp",
-      "source": "https://commons.wikimedia.org/wiki/File:Tesla_Megapack_set_of_4_with_solar_canopy.webp",
-      "credit": "Wikideas1",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "sha1": "8f3b8dd883b434652847a19bf0149cb29362e521",
-      "query": "FILE:Tesla Megapack set of 4 with solar canopy.webp",
-      "modification": "Resized / redimensionada"
+      "path": "assets/questions/m03-q05-r2.jpg",
+      "es": "Módulos de almacenamiento",
+      "en": "Energy storage modules",
+      "title": "File:Shoals Battery Bank.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shoals_Battery_Bank.jpeg",
+      "credit": "Ross Hansen, Shoals Marine Lab Director of Facilities and Planning",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "bcc85d1eb34d55a6d1bf12aeb18734e5f364c5cd",
+      "query": "Category:Battery banks"
     },
     {
       "path": "assets/questions/m03-q06-r2.jpg",
@@ -510,17 +509,16 @@
       "modification": "Resized / redimensionada"
     },
     {
-      "path": "assets/questions/m05-q02-r6.jpg",
-      "es": "Aeronave Airbus A400M",
-      "en": "Airbus A400M aircraft",
-      "title": "File:Airbus A400M-180 (cn 81, 54+22) 2024-06-09 Andre Gerwing Collection ID 020082.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Airbus_A400M-180_(cn_81,_54%2B22)_2024-06-09_Andre_Gerwing_Collection_ID_020082.jpg",
-      "credit": "André Gerwing",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "90a7ed736f695e59a86be525467e19cf20c682d0",
-      "query": "FILE:Airbus A400M-180 (cn 81, 54+22) 2024-06-09 Andre Gerwing Collection ID 020082.jpg",
-      "modification": "Resized / redimensionada"
+      "path": "assets/questions/m05-q02-r2.jpg",
+      "es": "Funciones esenciales en hangar",
+      "en": "Essential hangar functions",
+      "title": "File:Jetstar Airbus A320 in a hangar (6768081235).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jetstar_Airbus_A320_in_a_hangar_(6768081235).jpg",
+      "credit": "Jetstar Airways from Melbourne, Australia",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sha1": "39a9c8f201ff25b538d46bc2cdd07799fc93f3ac",
+      "query": "intitle:\"hangar\" Airbus"
     },
     {
       "path": "assets/questions/m05-q03-r2.jpg",
