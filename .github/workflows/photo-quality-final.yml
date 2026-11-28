@@ -1,0 +1,30 @@
+name: Editorial photo quality final
+on:
+  push:
+    branches: [fix/photo-quality-final]
+    paths: ['scripts/replace-editorial-photos.py', '.github/workflows/photo-quality-final.yml']
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - run: python scripts/replace-editorial-photos.py
+      - name: Commit candidate photos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets question-photos.js photo-review
+          git commit -m "Finalize image review and contact sheets"
+          git push origin HEAD:fix/photo-quality-final
+      - name: Browser regression
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium
+          node scripts/check-question-photos.cjs

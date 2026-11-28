@@ -1,0 +1,50 @@
+import json,html,re,time,urllib.parse,urllib.request,hashlib
+from pathlib import Path
+from PIL import Image, ImageOps
+from io import BytesIO
+ROOT=Path(__file__).resolve().parents[1]
+targets={"3.5":["Tesla Megapack set of 4 with solar canopy.webp","Módulos industriales de almacenamiento energético","Industrial battery energy storage modules"],"5.2":["Airbus A400M-180 (cn 81, 54+22) 2024-06-09 Andre Gerwing Collection ID 020082.jpg","Aeronave Airbus A400M","Airbus A400M aircraft"]}
+manifest=json.loads((ROOT/'assets/questions/CREDITS.json').read_text())
+def get(url):
+    for n in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'MissionEnergyEducation/3.2 (https://github.com/AUG79-droid/mission-energy)'}),timeout=40) as r:return r.read()
+        except Exception:
+            if n==3:raise
+            time.sleep(2**n)
+def clean(s):return html.unescape(re.sub(r'<[^>]*>','',s or '')).strip()
+used={x['sha1'] for row in manifest for x in row}
+for k,(name,es,en) in targets.items():
+    args={'action':'query','format':'json','titles':'File:'+name,'prop':'imageinfo','iiprop':'url|size|sha1|mime|extmetadata','iiurlwidth':1600}
+    page=next(iter(json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(args)))['query']['pages'].values()))
+    info=page['imageinfo'][0];meta=info.get('extmetadata',{})
+    val=lambda key:clean(meta.get(key,{}).get('value',''))
+    lic=val('LicenseShortName')
+    assert re.match(r'^(CC BY(?:-SA)? |CC0|Public domain|PD)',lic,re.I),(name,lic)
+    assert info['sha1'] not in used,name
+    im=ImageOps.exif_transpose(Image.open(BytesIO(get(info.get('thumburl') or info['url'])))).convert('RGB')
+    assert min(im.size)>=480,(name,im.size)
+    im.thumbnail((1600,1600),Image.Resampling.LANCZOS)
+    if k=='control':
+        path='assets/mission-control-2025.jpg'
+    else:
+        i,j=map(int,k.split('.'));path=f'assets/questions/m{i:02d}-q{j:02d}-r6.jpg'
+    im.save(ROOT/path,quality=90,optimize=True)
+    p={'path':path,'es':es,'en':en,'title':page['title'],'source':info['descriptionurl'],'credit':val('Artist') or val('Credit'),'license':lic,'licenseUrl':meta.get('LicenseUrl',{}).get('value',''),'sha1':info['sha1'],'query':'FILE:'+name,'modification':'Resized / redimensionada'}
+    used.add(info['sha1'])
+    if k=='control':
+        (ROOT/'assets/mission-control-credits.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n')
+    else:manifest[i-1][j-1]=p
+    print('REPLACED',k,name,im.size,lic,flush=True)
+assert len({x['sha1'] for row in manifest for x in row})==50
+(ROOT/'assets/questions/CREDITS.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+(ROOT/'question-photos.js').write_text('const ENERGY_QUESTION_PHOTOS='+json.dumps(manifest,ensure_ascii=False,indent=2)+';\n')
+
+from PIL import ImageDraw
+for i,row in enumerate(manifest):
+    sheet=Image.new('RGB',(1200,900),'#ffffff');d=ImageDraw.Draw(sheet)
+    for j,p in enumerate(row):
+        im=Image.open(ROOT/p['path']).convert('RGB');im.thumbnail((390,245))
+        x=(j%3)*400;y=(j//3)*225
+        im.thumbnail((390,195));sheet.paste(im,(x+(400-im.width)//2,y+20));d.text((x+8,y+3),f'{i+1}.{j+1}',fill='black')
+    folder=ROOT/'photo-review';folder.mkdir(exist_ok=True);sheet.save(folder/f'mission-{i+1}.jpg',quality=85)
