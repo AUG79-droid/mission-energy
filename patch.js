@@ -160,3 +160,6 @@ const ENERGY_LESSON_OVERVIEWS=[
 {es:"Prepárate para afrontar una crisis de 72 horas. Tendrás que priorizar funciones, revisar los recursos disponibles y adaptar tus decisiones a medida que cambie la situación.",en:"Prepare for a 72-hour crisis. You will prioritise functions, review available resources and adapt decisions as the situation changes."}
 ];
 Object.assign(T.es,{lessonOverview:"En esta lección"});Object.assign(T.en,{lessonOverview:"In this lesson"});
+
+Object.assign(T.es,{missionDecisions:"decisiones",missionPractice:"Pon en práctica lo aprendido en la lección."});
+Object.assign(T.en,{missionDecisions:"decisions",missionPractice:"Put what you learned in the lesson into practice."});
