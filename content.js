@@ -1,4 +1,3 @@
-// Bilingual decision bank. Professional rewrite candidate: mission 1.
 const ENERGY_DATA={
   "titles": [
     [
@@ -117,146 +116,146 @@ const ENERGY_DATA={
     ],
     [
       [
-        "Hay 80 kW disponibles. Seguridad y conservación requieren 50 kW; un ensayo flexible requiere 45 kW. ¿Qué decisión mantiene las funciones críticas?|80 kW is available. Safety and preservation require 50 kW; a flexible test requires 45 kW. Which decision preserves critical functions?",
-        "Reservar 50 kW para las funciones críticas y reprogramar el ensayo con autorización.|Reserve 50 kW for critical functions and reschedule the test with authorisation.",
-        "Ejecutar todo: 95 kW es aceptable durante cuatro horas.|Run everything: 95 kW is acceptable for four hours.",
-        "Reducir las cargas de seguridad a 35 kW sin validar.|Reduce safety loads to 35 kW without validation.",
-        "95 kW supera los 80 disponibles. Las funciones críticas caben y quedan 30 kW; el ensayo requiere reprogramación.|95 kW exceeds the available 80. Critical functions fit, leaving 30 kW; the test needs rescheduling."
+        "El límite de potencia es 110 kW. La demanda simultánea es 125 kW. Una mejora validada libera 22 kW durante ese intervalo. ¿Cuál es el nuevo margen?|The power limit is 110 kW. Simultaneous demand is 125 kW. A validated improvement frees 22 kW in that interval. What is the new headroom?",
+        "7 kW.|7 kW.",
+        "22 kW.|22 kW.",
+        "15 kW.|15 kW.",
+        "125−22=103 kW; 110−103=7 kW. Los 22 kW son la reducción, no el margen; 15 kW era el déficit inicial.|125−22=103 kW; 110−103=7 kW. The 22 kW is the reduction, not headroom; 15 kW was the initial shortfall."
       ],
       [
-        "Una sala desocupada sigue iluminada. ¿Qué hacer?|An empty room remains fully lit. What is appropriate?",
-        "Controlar iluminación preservando seguridad y emergencia.|Control lighting while preserving safety and emergency requirements.",
-        "Eliminar alumbrado de emergencia.|Remove emergency lighting.",
-        "Ignorar el consumo indefinidamente.|Ignore demand indefinitely.",
-        "Eliminar consumo evitable libera capacidad.|Avoiding unnecessary demand releases capacity."
+        "A reduce 15 kW durante el pico de las 11 h; B reduce 30 kW únicamente de noche. El déficit a las 11 h es 12 kW. Ambas conservan el servicio. ¿Qué medida cubre ese déficit?|A cuts 15 kW at the 11 am peak; B cuts 30 kW only at night. The 11 am shortfall is 12 kW. Both preserve service. Which covers the shortfall?",
+        "A, con 3 kW de margen durante el pico.|A, with 3 kW headroom during the peak.",
+        "B, porque libera el doble de potencia.|B, because it frees twice the power.",
+        "Ambas, porque las reducciones superan 12 kW.|Both, because both reductions exceed 12 kW.",
+        "Importa la coincidencia temporal. B puede ahorrar energía, pero no modifica el déficit a las 11 h.|Timing matters. B may save energy but does not change the 11 am shortfall."
       ],
       [
-        "Dos procesos flexibles crean un pico simultáneo. ¿Qué propuesta sirve?|Two flexible processes create a shared peak. What helps?",
-        "Escalonar operaciones con autorización técnica.|Stagger operations with technical authorisation.",
-        "Desactivar protecciones.|Disable protective devices.",
-        "Cambiar horarios sin informar.|Change schedules without informing teams.",
-        "La flexibilidad puede reducir picos sin perder resultados.|Flexibility can reduce peaks without losing output."
+        "De 8 a 10 h hay 25 kW de margen. A necesita 20 kW durante 2 h y vence a las 10 h. B necesita 15 kW durante 2 h y vence a las 14 h. De 10 a 14 h hay 20 kW de margen. ¿Qué plan cumple ambos plazos?|From 8 to 10 there is 25 kW headroom. A needs 20 kW for two hours and is due at 10. B needs 15 kW for two hours and is due at 14. From 10 to 14 there is 20 kW headroom. Which plan meets both deadlines?",
+        "A de 8 a 10; B de 10 a 12.|A from 8 to 10; B from 10 to 12.",
+        "B de 8 a 10; A de 10 a 12.|B from 8 to 10; A from 10 to 12.",
+        "A y B de 8 a 10.|A and B from 8 to 10.",
+        "A cabe en la primera franja y B en la segunda. La segunda opción incumple el plazo de A; la tercera requiere 35 kW frente a 25 disponibles.|A fits the first slot and B the second. The second option misses A's deadline; the third needs 35 kW against 25 available."
       ],
       [
-        "Se anuncia un ahorro sin línea base. ¿Qué falta?|A saving is announced without a baseline. What is missing?",
-        "Método, periodo y variables de comparación.|Method, period and comparison variables.",
-        "Una cifra de ahorro mayor.|A larger savings number.",
-        "Más gráficos decorativos.|More decorative charts.",
-        "Sin referencia verificable no puede demostrarse la mejora.|Without a verifiable baseline, improvement cannot be demonstrated."
+        "Una tarea de 18 kW durante 3 h se traslada íntegramente a la noche, sin cambiar potencia ni duración. ¿Qué ahorro energético produce el desplazamiento por sí solo?|An 18 kW task lasting three hours moves entirely to night, with unchanged power and duration. What energy saving does shifting alone produce?",
+        "0 kWh; desplaza 54 kWh a otra franja.|0 kWh; it shifts 54 kWh to another slot.",
+        "54 kWh, porque desaparece del periodo diurno.|54 kWh, because it disappears from daytime.",
+        "18 kWh, porque libera 18 kW durante el día.|18 kWh, because it frees 18 kW during daytime.",
+        "18×3=54 kWh antes y después. Puede mejorar margen y coste, pero no reduce energía por sí mismo.|18×3=54 kWh before and after. It may improve headroom and cost but does not itself save energy."
       ],
       [
-        "Se detectan fugas de aire comprimido. ¿Qué conviene?|Compressed-air leaks are found. What is appropriate?",
-        "Repararlas y medir la reducción de pérdidas.|Repair them and measure loss reduction.",
-        "Aumentar presión sin estudio.|Increase pressure without assessment.",
-        "Desactivar el sistema de seguridad.|Disable the safety system.",
-        "Corregir pérdidas favorece eficiencia y disponibilidad.|Fixing losses supports efficiency and availability."
+        "Antes: 120 ciclos equivalentes y 7.200 kWh. Después: 100 ciclos y 5.400 kWh. Sin efecto relevante de carga fija ni cambios de condiciones, ¿cuánto baja la intensidad?|Before: 120 equivalent cycles and 7,200 kWh. After: 100 cycles and 5,400 kWh. With no significant fixed-load effect or condition changes, how much does intensity fall?",
+        "10 %.|10%.",
+        "25 %.|25%.",
+        "16,7 %.|16.7%.",
+        "60 frente a 54 kWh/ciclo: (60−54)/60=10 %. 25 % es la reducción total y 16,7 % la caída de actividad.|60 versus 54 kWh/cycle: (60−54)/60=10%. 25% is total reduction and 16.7% is reduced activity."
       ],
       [
-        "Un material necesita temperatura controlada. ¿Puede apagarse climatización?|Materials need controlled temperature. May climate control be switched off?",
-        "Solo si responsables validan límites y conformidad.|Only if owners validate limits and compliance.",
-        "Sí, siempre que suba la tarifa.|Yes, whenever tariffs rise.",
-        "Sí, la climatización nunca es esencial.|Yes, climate control is never essential.",
-        "La preservación de materiales puede ser una función crítica.|Material preservation may be a critical function."
+        "Una restricción deja 82 kW. Control 12 kW, refrigeración 45 kW y ventilación obligatoria 20 kW; un auxiliar aplazable requiere 18 kW. ¿Qué plan es viable con los requisitos dados?|A constraint leaves 82 kW. Controls 12 kW, cooling 45 kW and mandatory ventilation 20 kW; a deferrable auxiliary needs 18 kW. Which plan is feasible under the stated requirements?",
+        "Aplazar el auxiliar: 77 kW y 5 kW de margen.|Defer the auxiliary: 77 kW and 5 kW headroom.",
+        "Reducir refrigeración 15 kW sin validación y mantener el auxiliar.|Cut cooling by 15 kW without validation and retain the auxiliary.",
+        "Parar control y mantener el resto: 83 kW.|Stop controls and retain the rest: 83 kW.",
+        "La primera conserva todos los requisitos y respeta capacidad. Las otras eliminan o reducen funciones obligatorias sin justificación; la última además excede el límite.|The first preserves all requirements and respects capacity. The others remove or reduce mandatory functions without justification; the last also exceeds the limit."
       ],
       [
-        "¿Qué significa gestionar flexibilidad de demanda?|What is demand flexibility?",
-        "Desplazar cargas autorizadas manteniendo el servicio.|Shifting approved loads while preserving service.",
-        "Eliminar mantenimiento preventivo.|Eliminating preventive maintenance.",
-        "Alterar procesos sin autorización.|Altering processes without authorisation.",
-        "La función se conserva mientras cambia el momento de consumo.|The function is preserved while demand timing changes."
+        "Tras una restricción quedan 35 kW de margen durante cuatro horas. Dos tareas aplazadas requieren 25 y 20 kW, dos horas cada una, sin dependencias y con plazo al final de la franja. ¿Qué plan evita el rebote?|After a constraint, 35 kW headroom remains for four hours. Two deferred tasks need 25 and 20 kW, two hours each, with no dependencies and due at the end of the slot. Which plan avoids rebound?",
+        "Ejecutarlas consecutivamente, dos horas cada una.|Run them sequentially, two hours each.",
+        "Arrancarlas juntas durante dos horas y dejar dos horas libres.|Start both together for two hours and leave two hours free.",
+        "Ejecutar solo la de 25 kW y aplazar la otra más allá del plazo.|Run only the 25 kW task and defer the other beyond its deadline.",
+        "La secuencia ocupa cuatro horas y no supera 35 kW. El arranque conjunto requiere 45 kW; aplazar más incumple el plazo.|Sequential operation takes four hours and stays within 35 kW. Concurrent operation requires 45 kW; further deferral misses the deadline."
       ],
       [
-        "Baja el consumo porque hay menos producción. ¿Hay mejora probada?|Consumption falls as production falls. Is efficiency improvement proven?",
-        "No; debe normalizarse por actividad relevante.|No; it must be normalised for relevant activity.",
-        "Sí, cualquier descenso prueba eficiencia.|Yes, any decline proves efficiency.",
-        "Sí, ya no hace falta medir.|Yes, measurement is no longer needed.",
-        "Consumo absoluto y desempeño energético son diferentes.|Absolute energy use and energy performance differ."
+        "Un equipo de 8 kW mantiene el registro válido de ensayos; otro de 50 kW realiza una tarea aplazable. ¿Qué clasificación permite decidir durante una restricción?|An 8 kW unit maintains valid test records; a 50 kW unit performs a deferrable task. Which classification supports a decision during a constraint?",
+        "Separar consumo significativo de criticidad: proteger el registro y evaluar el aplazamiento del otro equipo.|Separate significant consumption from criticality: protect recording and assess deferral of the other unit.",
+        "Priorizar el equipo de 50 kW porque representa el mayor uso energético.|Prioritise the 50 kW unit because it is the larger energy use.",
+        "Priorizar el equipo de 8 kW únicamente porque es el más eficiente.|Prioritise the 8 kW unit solely because it is more efficient.",
+        "El registro es crítico por su función, no por consumir menos. El equipo mayor puede ser prioritario para eficiencia y aplazable durante una restricción.|Recording is critical because of its function, not its lower consumption. The larger unit may be an efficiency priority and deferrable during a constraint."
       ],
       [
-        "Una reserva útil de 300 kWh alimenta 60 kW esenciales y 40 kW desplazables. ¿Qué cambia si se desplaza la carga flexible autorizada?|A 300 kWh usable reserve supplies 60 kW essential and 40 kW shiftable demand. What changes if the approved flexible load is deferred?",
-        "La autonomía teórica pasa de 3 a 5 horas, sin reducir la carga esencial.|Theoretical autonomy rises from 3 to 5 hours without reducing essential load.",
-        "La autonomía permanece en 3 horas.|Autonomy remains 3 hours.",
-        "La autonomía pasa a 7,5 horas porque se divide por la carga desplazada.|Autonomy rises to 7.5 hours by dividing by the deferred load.",
-        "300/100 = 3 h; 300/60 = 5 h. La flexibilidad aumenta la autonomía bajo los supuestos indicados.|300/100 = 3 h; 300/60 = 5 h. Flexibility increases autonomy under the stated assumptions."
+        "Déficit de 18 kW. A libera 20 kW por 14.000 €; B libera 15 kW por 9.000 €. C libera otros 5 kW por 3.000 €, sin solapamiento con B y con prestaciones verificadas. ¿Qué opción viable tiene menor coste?|Shortfall 18 kW. A frees 20 kW for €14,000; B frees 15 kW for €9,000. C frees another 5 kW for €3,000, with no overlap with B and verified performance. Which feasible option costs least?",
+        "B+C: 20 kW por 12.000 €.|B+C: 20 kW for €12,000.",
+        "B: 15 kW por 9.000 €.|B: 15 kW for €9,000.",
+        "A: 20 kW por 14.000 €.|A: 20 kW for €14,000.",
+        "B+C y A cubren el déficit con 2 kW de margen; B+C cuesta menos. B sola no cumple el requisito.|B+C and A cover the shortfall with 2 kW headroom; B+C costs less. B alone fails the requirement."
       ],
       [
-        "¿Cómo verificar que una medida no degrada el servicio?|How do you verify that a measure does not degrade service?",
-        "Revisar energía, seguridad, calidad y disponibilidad.|Review energy, safety, quality and availability.",
-        "Mirar solo el ahorro mensual.|Look only at monthly savings.",
-        "Dar por bueno todo descenso de consumo.|Accept every consumption reduction.",
-        "Eficiencia y continuidad deben evaluarse juntas.|Efficiency and continuity must be assessed together."
+        "Un proyecto promete liberar 20 kW en el pico. La prueba comparable solo confirma 12 kW; el déficit previsto es 16 kW. ¿Qué comunicarías?|A project promises to free 20 kW at peak. A comparable test confirms only 12 kW; expected shortfall is 16 kW. What would you report?",
+        "Quedan 4 kW de déficit; investigar desviación y evaluar medidas complementarias.|A 4 kW shortfall remains; investigate the deviation and assess complementary measures.",
+        "La medida cubre el déficit porque el diseño preveía 20 kW.|The measure covers the shortfall because design predicted 20 kW.",
+        "La medida es inútil porque no alcanza el objetivo inicial.|The measure is useless because it misses the initial target.",
+        "La evidencia confirma una contribución parcial, no el cierre de la brecha. Hay que revisar supuestos y complementar la solución.|Evidence confirms a partial contribution, not closure of the gap. Review assumptions and complement the solution."
       ]
     ],
     [
       [
-        "¿Funcionan paneles solares conectados a red durante cualquier apagón?|Will grid-tied solar work through every blackout?",
-        "No; requiere arquitectura de isla autorizada y protecciones.|No; approved islanding architecture and protection are needed.",
-        "Sí, siempre.|Yes, always.",
-        "Sí, por tener garantías de origen.|Yes, if guarantees of origin exist.",
-        "Generación renovable no significa respaldo automático.|Renewable generation is not automatic backup."
+        "Dos fuentes independientes de 55 kW y 80 kW comparten un cuadro. La carga es 60 kW. Si falla la fuente de 80 kW, ¿qué ocurre suponiendo que el cuadro funciona?|Two independent 55 kW and 80 kW sources share a switchboard. Load is 60 kW. If the 80 kW source fails, what happens assuming the switchboard works?",
+        "Quedan 55 kW: déficit de 5 kW.|55 kW remain: 5 kW shortfall.",
+        "Quedan 135 kW porque las fuentes son independientes.|135 kW remain because sources are independent.",
+        "Quedan 80 kW porque el cuadro sigue disponible.|80 kW remain because the switchboard remains available.",
+        "La fuente superviviente entrega 55 kW. Independencia no garantiza capacidad suficiente.|The surviving source delivers 55 kW. Independence does not guarantee sufficient capacity."
       ],
       [
-        "Una batería dispone de 400 kWh útiles, pero solo puede entregar 50 kW. La función requiere 80 kW. ¿Puede mantenerla por sí sola?|A battery has 400 usable kWh but can deliver only 50 kW. The function requires 80 kW. Can it sustain the function alone?",
-        "No: falta potencia, aunque la energía almacenada parezca suficiente.|No: power is insufficient even though stored energy appears sufficient.",
-        "Sí: 400/80 = 5 horas de respaldo garantizado.|Yes: 400/80 = 5 hours of guaranteed backup.",
-        "Sí: la potencia máxima no afecta a la autonomía.|Yes: maximum power does not affect autonomy.",
-        "El límite de 50 kW impide alimentar 80 kW. Deben cumplirse simultáneamente potencia y energía.|The 50 kW limit cannot support 80 kW. Both power and energy constraints must be satisfied."
+        "Una batería y un generador cubren individualmente la carga, pero comparten una sala expuesta a inundación. ¿Qué medida aborda el escenario de pérdida simultánea?|A battery and generator each cover the load but share a flood-exposed room. Which measure addresses simultaneous loss?",
+        "Evaluar separación física y rutas independientes, verificando exposición y transferencia.|Assess physical separation and independent paths, verifying exposure and transfer.",
+        "Aumentar la capacidad de ambos equipos en la misma sala.|Increase capacity of both units in the same room.",
+        "Añadir un segundo proveedor de combustible sin cambiar la ubicación.|Add a second fuel supplier without changing location.",
+        "La vulnerabilidad es exposición compartida. Capacidad y diversificación comercial no eliminan la pérdida simultánea por inundación.|The vulnerability is shared exposure. Capacity and commercial diversification do not eliminate simultaneous flood loss."
       ],
       [
-        "Dos generadores comparten combustible. ¿Son totalmente independientes?|Two generators share fuel. Are they fully independent?",
-        "No; comparten una dependencia logística.|No; they share a logistics dependency.",
-        "Sí, porque son dos máquinas.|Yes, because two units exist.",
-        "Sí, si son del mismo color.|Yes, if they are the same colour.",
-        "Los modos de fallo comunes importan más que el recuento.|Shared failure modes matter more than equipment count."
+        "Una instalación solar aislable aporta 35 kW durante 5 h; la carga es 50 kW. ¿Qué mínimo debe aportar el almacenamiento en ese intervalo?|An island-capable solar installation provides 35 kW for five hours; load is 50 kW. What minimum must storage provide in that interval?",
+        "15 kW y 75 kWh útiles.|15 kW and 75 usable kWh.",
+        "50 kW y 250 kWh útiles.|50 kW and 250 usable kWh.",
+        "35 kW y 175 kWh útiles.|35 kW and 175 usable kWh.",
+        "Déficit=50−35=15 kW; energía=15×5=75 kWh. Los otros valores corresponden a demanda total o generación solar.|Shortfall=50−35=15 kW; energy=15×5=75 kWh. Other values correspond to total demand or solar generation."
       ],
       [
-        "Un contrato renovable cubre consumo anual. ¿Qué no demuestra?|A renewable contract covers annual demand. What does it not prove?",
-        "Suministro físico instantáneo durante contingencias.|Instant physical supply during disruption.",
-        "Un atributo contractual.|A contractual attribute.",
-        "Un documento de compra.|A purchase document.",
-        "La cobertura anual no equivale a respaldo operativo.|Annual coverage is not operational backup."
+        "Una planta solar de 200 kW nominales tiene inversores que se desconectan al perder red. ¿Qué evidencia permitiría contar con ella durante un corte?|A nominal 200 kW solar plant has inverters that disconnect on grid loss. What evidence would allow reliance on it during an outage?",
+        "Configuración aislada autorizada y prueba integrada con generación y carga representativas.|Authorised island configuration and integrated test with representative generation and load.",
+        "Histórico anual de generación superior al consumo anual.|Annual generation history exceeding annual consumption.",
+        "Certificado de potencia nominal y contrato de mantenimiento.|Nameplate rating certificate and maintenance contract.",
+        "El balance anual y la potencia nominal no demuestran funcionamiento aislado. Deben verificarse controles, protecciones y entrega.|Annual balance and nameplate rating do not demonstrate island operation. Controls, protection and delivery must be verified."
       ],
       [
-        "Una carga de 60 kW necesita 8 h. A: 480 kWh útiles, 70 kW, pero comparte la subestación que falla. B: 540 kWh útiles, 70 kW y ruta independiente verificada. ¿Cuál cubre el escenario descrito?|A 60 kW load needs 8 h. A: 480 usable kWh, 70 kW, but shares the failed substation. B: 540 usable kWh, 70 kW and a verified independent path. Which covers the stated scenario?",
-        "B: cubre potencia y 480 kWh requeridos, sin el fallo común indicado.|B: it covers power and the required 480 kWh without the specified common failure.",
-        "A: 480 kWh bastan aunque la ruta esté interrumpida.|A: 480 kWh is enough even if its path is interrupted.",
-        "Ambas por igual: solo importa la capacidad nominal.|Both equally: only rated capacity matters.",
-        "B cumple los requisitos del supuesto. A no está disponible durante ese fallo. Costes, protecciones y otras dependencias siguen pendientes.|B meets the stated requirements. A is unavailable during that failure. Costs, protection and other dependencies still require review."
+        "Batería de 600 kWh nominales, completamente cargada, descarga permitida del 75 % y eficiencia de entrega del 80 %. ¿Energía útil calculada?|A fully charged 600 kWh nominal battery has a 75% permitted discharge window and 80% delivery efficiency. Calculated usable energy?",
+        "360 kWh.|360 kWh.",
+        "450 kWh.|450 kWh.",
+        "480 kWh.|480 kWh.",
+        "600×0,75×0,80=360 kWh. Los otros resultados aplican solo uno de los factores.|600×0.75×0.80=360 kWh. The other results apply only one factor."
       ],
       [
-        "¿Qué validación necesita una microred antes de usarse?|What validation does a microgrid need before reliance?",
-        "Transferencia, protección, control y reconexión ensayadas.|Tested transfer, protection, control and reconnection.",
-        "Solo una animación comercial.|Only a commercial animation.",
-        "Ninguna prueba si tiene software moderno.|No tests if it uses modern software.",
-        "La continuidad en isla requiere ingeniería y pruebas.|Islanded continuity needs engineering and testing."
+        "Hay 120 kWh útiles y descarga máxima de 25 kW. Otra fuente entrega 20 kW constantes; la carga es 40 kW. ¿Cuánto dura la contribución conjunta antes de agotar la batería?|There are 120 usable kWh and maximum discharge of 25 kW. Another source delivers 20 kW continuously; load is 40 kW. How long does the combined supply last before battery depletion?",
+        "6 h.|6 h.",
+        "3 h.|3 h.",
+        "4,8 h.|4.8 h.",
+        "La batería aporta 20 kW, dentro de su límite. 120/20=6 h. No se divide por carga total ni por potencia máxima si no es la demanda real.|The battery provides 20 kW, within its limit. 120/20=6 h. Do not divide by total load or maximum rating when neither is actual battery demand."
       ],
       [
-        "El almacenamiento depende de repuestos remotos. ¿Qué estudiar?|Storage relies on distant spare parts. What should be studied?",
-        "Logística, reparabilidad y sustitución de componentes.|Logistics, repairability and replacement of components.",
-        "Solo aspecto exterior.|Exterior appearance only.",
-        "Nada, porque las baterías no fallan.|Nothing, because batteries never fail.",
-        "Diversificar una fuente puede crear nuevas dependencias.|Diversifying sources can create new dependencies."
+        "Se pueden almacenar 80 kWh de excedente, con eficiencia de almacenamiento y entrega del 75 % y espacio suficiente. ¿Cuánta energía útil se recupera?|80 kWh of surplus can be stored with storage-to-delivery efficiency of 75% and sufficient space. How much usable energy is recovered?",
+        "60 kWh.|60 kWh.",
+        "80 kWh.|80 kWh.",
+        "106,7 kWh.|106.7 kWh.",
+        "80×0,75=60 kWh. La eficiencia reduce energía recuperable; no la aumenta.|80×0.75=60 kWh. Efficiency reduces recoverable energy; it does not increase it."
       ],
       [
-        "La demanda máxima es nocturna y la solar diurna. ¿Qué analizar?|Peak demand is nocturnal and solar output daytime. What matters?",
-        "Coincidencia horaria, flexibilidad y almacenamiento.|Time matching, flexibility and storage.",
-        "Solo energía total anual.|Only total annual energy.",
-        "Ignorar las horas nocturnas.|Ignore nighttime hours.",
-        "El momento de producción afecta a la utilidad operativa.|Generation timing affects operational usefulness."
+        "Un respaldo tiene 720 L útiles y consume 24 L/h. La reposición prevista a las 25 h podría retrasarse 9 h. ¿Qué reserva adicional mínima cubriría el retraso?|Backup has 720 usable L and consumes 24 L/h. Replenishment scheduled at hour 25 could be delayed nine hours. What minimum additional reserve covers the delay?",
+        "96 L útiles.|96 usable L.",
+        "216 L útiles.|216 usable L.",
+        "120 L útiles.|120 usable L.",
+        "Autonomía 30 h; entrega desfavorable a 34 h. Faltan 4×24=96 L. No se necesita cubrir las nueve horas completas con reserva adicional porque ya había cinco de margen.|Autonomy 30 h; adverse delivery at hour 34. Shortfall 4×24=96 L. The full nine hours need not be added because five hours of margin already existed."
       ],
       [
-        "Un vendedor garantiza «cero riesgo energético». ¿Qué pedir?|A supplier promises “zero energy risk”. What should you ask for?",
-        "Escenarios, pruebas y riesgos residuales.|Scenarios, tests and residual risks.",
-        "Aceptar el lema.|Accept the slogan.",
-        "Eliminar auditorías.|Eliminate audits.",
-        "Las afirmaciones absolutas no sustituyen evidencias.|Absolute claims cannot replace evidence."
+        "Un combustible alternativo de producción local podría reducir transporte en una base remota. ¿Qué evaluación permite considerarlo como opción de continuidad?|A locally produced alternative fuel could reduce transport at a remote base. What assessment allows it to be considered a continuity option?",
+        "Validar compatibilidad y autorización, capacidad local, insumos, almacenamiento y disponibilidad en el escenario.|Validate compatibility and authorisation, local capacity, inputs, storage and availability in the scenario.",
+        "Comparar solo emisiones de ciclo de vida y coste por litro.|Compare only life-cycle emissions and cost per litre.",
+        "Comparar solo volumen anual de producción local y demanda anual.|Compare only annual local production and annual demand.",
+        "La producción local puede reducir transporte pero introduce otras dependencias. Emisiones y volumen anual no demuestran compatibilidad ni continuidad.|Local production may reduce transport but introduces other dependencies. Emissions and annual volume do not demonstrate compatibility or continuity."
       ],
       [
-        "¿Qué estrategia proporciona protección en capas?|Which strategy offers layered protection?",
-        "Eficiencia, flexibilidad, fuentes y respaldo probado.|Efficiency, flexibility, sources and tested backup.",
-        "Una sola tecnología milagrosa.|One miracle technology.",
-        "Cambiar el contrato sin revisar la red.|Change contracts without reviewing the grid.",
-        "Las distintas defensas cubren fallos distintos.|Different safeguards address different failures."
+        "A y B cumplen los requisitos de continuidad. A cuesta 30.000 € más 7.000 €/año; B, 46.000 € más 3.000 €/año. Horizonte de 5 años, sin descuento ni otros costes. ¿Cuál cuesta menos?|A and B meet continuity requirements. A costs €30,000 plus €7,000/year; B €46,000 plus €3,000/year. Five-year horizon, no discounting or other costs. Which costs less?",
+        "B: 61.000 €, frente a 65.000 € de A.|B: €61,000 versus €65,000 for A.",
+        "A: 30.000 €, frente a 46.000 € de B.|A: €30,000 versus €46,000 for B.",
+        "A: 37.000 €, frente a 49.000 € de B.|A: €37,000 versus €49,000 for B.",
+        "A=30.000+5×7.000=65.000; B=46.000+5×3.000=61.000. Se comparan costes del mismo horizonte, no solo inversión o primer año.|A=30,000+5×7,000=65,000; B=46,000+5×3,000=61,000. Compare costs over the same horizon, not just investment or first year."
       ]
     ],
     [
