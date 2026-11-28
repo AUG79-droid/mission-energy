@@ -427,16 +427,17 @@ const ENERGY_QUESTION_PHOTOS=[
       "query": "flooded electrical substation"
     },
     {
-      "path": "assets/questions/m04-q06-r2.jpg",
-      "es": "Protección de instalaciones",
-      "en": "Facility protection",
-      "title": "File:FEMA - 1315 - Photograph by Dave Gatley taken on 02-26-1998 in California.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:FEMA_-_1315_-_Photograph_by_Dave_Gatley_taken_on_02-26-1998_in_California.jpg",
-      "credit": "Dave Gatley",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "b68c0a268e15b0bf7811134a542bf79b0ed2292b",
-      "query": "flooded electrical substation"
+      "path": "assets/questions/m04-q06-r3.jpg",
+      "es": "Equipamiento elevado de subestación ante inundación",
+      "en": "Elevated substation equipment for flood protection",
+      "title": "File:Interior of a substation.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_of_a_substation.jpg",
+      "credit": "JC1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "b3a7c71750551794bf8414c96f7822e6e4c707d5",
+      "query": "FILE:Interior of a substation.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m04-q07.jpg",
@@ -451,16 +452,17 @@ const ENERGY_QUESTION_PHOTOS=[
       "query": "FILE:Power generator of a hospital data center.jpg"
     },
     {
-      "path": "assets/questions/m04-q08-r2.jpg",
-      "es": "Control de infraestructura",
-      "en": "Infrastructure control",
-      "title": "File:Space Power Facility Control Room.JPG",
-      "source": "https://commons.wikimedia.org/wiki/File:Space_Power_Facility_Control_Room.JPG",
-      "credit": "Illudium Pu-36",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "cc535d37bcbcd70c3be5497a586a2142614d0626",
-      "query": "intitle:\"control room\" power plant"
+      "path": "assets/questions/m04-q08-r3.jpg",
+      "es": "Cuadro de control industrial",
+      "en": "Industrial control panel",
+      "title": "File:Electrical Control Panel Made By True Logic Group Inc.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Electrical_Control_Panel_Made_By_True_Logic_Group_Inc.jpg",
+      "credit": "Jbarnard33",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sha1": "ff8e0c06d0609a926c9800f4684a9d63790a030d",
+      "query": "FILE:Electrical Control Panel Made By True Logic Group Inc.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m04-q09-r2.jpg",
@@ -489,16 +491,17 @@ const ENERGY_QUESTION_PHOTOS=[
   ],
   [
     {
-      "path": "assets/questions/m05-q01-r2.jpg",
-      "es": "Suministro de emergencia",
-      "en": "Emergency supply",
-      "title": "File:STM Stirling Generator set.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:STM_Stirling_Generator_set.jpg",
-      "credit": "This is a Wikimedai Commons user page.",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "b23dafedd7722b76b3c51254f0edf153f35defcf",
-      "query": "intitle:\"generator set\""
+      "path": "assets/questions/m05-q01-r3.jpg",
+      "es": "Instalación de almacenamiento energético industrial",
+      "en": "Industrial battery energy storage installation",
+      "title": "File:Reid Gardner BESS.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Reid_Gardner_BESS.jpg",
+      "credit": "Sig. Chiocciola",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha1": "5db026118afabdc7b615b5d8c6077d04f2d95884",
+      "query": "FILE:Reid Gardner BESS.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m05-q02-r2.jpg",
@@ -573,40 +576,43 @@ const ENERGY_QUESTION_PHOTOS=[
       "query": "industrial fuel storage tank"
     },
     {
-      "path": "assets/questions/m05-q08-r2.jpg",
-      "es": "Equipos de generación temporal",
-      "en": "Temporary generation equipment",
-      "title": "File:2014 tram tracks replacement in Tallinn 076.JPG",
-      "source": "https://commons.wikimedia.org/wiki/File:2014_tram_tracks_replacement_in_Tallinn_076.JPG",
-      "credit": "Dmitry G",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sha1": "0d944138a7b826e33357f56900c70c091f0b39d7",
-      "query": "Category:Diesel generators"
-    },
-    {
-      "path": "assets/questions/m05-q09-r2.jpg",
-      "es": "Restablecimiento de la actividad",
-      "en": "Restoring operations",
-      "title": "File:Aeroscopia - A400M.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Aeroscopia_-_A400M.jpg",
-      "credit": "Kuremu Sakura",
+      "path": "assets/questions/m05-q08-r3.jpg",
+      "es": "Generador móvil de emergencia",
+      "en": "Mobile emergency generator",
+      "title": "File:100 kW Mobile engine-generator (1).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:100_kW_Mobile_engine-generator_(1).jpg",
+      "credit": "Cjp24",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "7e13fd133e59182e32afc194b6b6b310ae67dd06",
-      "query": "Airbus A400M hangar"
+      "sha1": "68d5d95eca9ba52c77a9e6f904e82981e9d80b1e",
+      "query": "FILE:100 kW Mobile engine-generator (1).jpg",
+      "modification": "Resized / redimensionada"
     },
     {
-      "path": "assets/questions/m05-q10-r2.jpg",
-      "es": "Revisión de recuperación",
-      "en": "Recovery review",
-      "title": "File:Power plant control room.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Power_plant_control_room.jpg",
-      "credit": "Magnetic Rahim",
+      "path": "assets/questions/m05-q09-r3.jpg",
+      "es": "Instalación de respaldo para continuidad de servicio",
+      "en": "Backup installation for service continuity",
+      "title": "File:Data center backup generators.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Data_center_backup_generators.jpg",
+      "credit": "Rsparks3",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha1": "3280c52fb386ca5e4ca66bbda5236000b67f87fb",
+      "query": "FILE:Data center backup generators.jpg",
+      "modification": "Resized / redimensionada"
+    },
+    {
+      "path": "assets/questions/m05-q10-r3.jpg",
+      "es": "Sala de supervisión de generación eléctrica",
+      "en": "Power generation monitoring room",
+      "title": "File:Control room of stage six.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Control_room_of_stage_six.jpg",
+      "credit": "Shivashishpandey35",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "a442140d1f5d3923522091a0a7d2ee54ea6187d3",
-      "query": "intitle:\"control room\" power plant"
+      "sha1": "0f59210d13d4ed9e6859bff9425e0e1bd4b920d1",
+      "query": "FILE:Control room of stage six.jpg",
+      "modification": "Resized / redimensionada"
     }
   ]
 ];
