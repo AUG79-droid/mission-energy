@@ -11,6 +11,8 @@ UA='MissionEnergyEducational/3.1 (https://github.com/AUG79-droid/mission-energy;
 used=set()
 hashes=[]
 manifest=[]
+REPLACE=["2.8","2.9","3.5","3.7","3.9","3.10","4.4","5.2","5.4","5.5","5.7","5.9"]
+previous=json.loads((DEST/'CREDITS.json').read_text())
 def get(url):
     for attempt in range(4):
         try:
@@ -32,10 +34,17 @@ def search(q):
 def dhash(im):
     a=list(ImageOps.grayscale(im).resize((9,8)).getdata())
     return sum((a[y*9+x]>a[y*9+x+1])<<(y*8+x) for y in range(8) for x in range(8))
+for i,row in enumerate(previous):
+    for j,p in enumerate(row):
+        if f'{i+1}.{j+1}' not in REPLACE:
+            used.add(p['sha1'])
+            hashes.append(dhash(Image.open(ROOT/p['path']).convert('RGB')))
 for i,group in enumerate(TOPICS):
     row=[]
     for j,(es,en,*queries) in enumerate(group):
         pattern=queries.pop()[6:]
+        if f'{i+1}.{j+1}' not in REPLACE:
+            row.append(previous[i][j]);continue
         found=None
         for q in queries:
             try: pages=search(q)
@@ -47,9 +56,9 @@ for i,group in enumerate(TOPICS):
                 val=lambda k:clean(meta.get(k,{}).get('value',''))
                 license=val('LicenseShortName')
                 title=page.get('title','')
-                if re.search(r'\b(EFTA\d*|historic district|museum|archive|194[0-9]|195[0-9]|196[0-9]|197[0-9]|chemical agent|weapon|portrait)\b',title,re.I):continue
+                if re.search(r'\b(EFTA\d*|historic district|museum|archive|194[0-9]|195[0-9]|196[0-9]|197[0-9]|chemical agent|weapon|portrait|ribbon cutting|under construction|Mazda|Nikon|Bosch VCC|microbial|LCCN|Bulltofta|Junkers|former|historic|Chickamauga|thermal storage|museum)\b',title,re.I):continue
                 if not q.startswith('FILE:') and not re.search(pattern,title,re.I):continue
-                if info.get('mime') not in ('image/jpeg','image/png','image/webp') or info.get('width',0)<850 or info.get('height',0)<400 or info.get('width',0)/max(1,info.get('height',1))<1.15:continue
+                if info.get('mime') not in ('image/jpeg','image/webp') or info.get('width',0)<850 or info.get('height',0)<400 or info.get('width',0)/max(1,info.get('height',1))<1.15:continue
                 if not re.match(r'^(CC BY(?:-SA)? |CC0|Public domain|PD)',license,re.I):continue
                 if re.search(r'\b(map|diagram|schematic|logo|icon|drawing|chart|flag|screenshot|portrait)\b',title,re.I):continue
                 sha=info.get('sha1')

@@ -145,18 +145,18 @@
     [
       "Registro de ensayos",
       "Test data recording",
-      "aircraft test control room",
-      "test instrumentation laboratory",
-      "control room",
-      "MATCH:control room|test facility|instrumentation|wind tunnel"
+      "test control room aerospace",
+      "power plant control room",
+      "control room industrial",
+      "MATCH:control room|control cent"
     ],
     [
       "Equipos de eficiencia energética",
       "Energy efficiency equipment",
-      "variable frequency drive industrial",
-      "industrial motor drive",
-      "electric motor",
-      "MATCH:motor|variable frequency|frequency converter|drive|pump"
+      "industrial electric motor factory",
+      "industrial electric motor pump",
+      "electric motor industrial",
+      "MATCH:electric motor|industrial motor|motor pump|frequency converter"
     ],
     [
       "Comprobación de instalaciones eléctricas",
@@ -206,11 +206,10 @@
     [
       "Módulos de almacenamiento",
       "Energy storage modules",
-      "FILE:Tesvolt battery energy storage system Rheineck.jpg",
-      "lithium ion battery rack",
-      "battery energy storage rack",
-      "battery rack",
-      "MATCH:batter|energy storage|bess"
+      "battery energy storage system container",
+      "grid battery storage system",
+      "battery energy storage",
+      "MATCH:energy storage|battery storage|battery bank|bess"
     ],
     [
       "Almacenamiento y generación",
@@ -223,10 +222,10 @@
     [
       "Carga de baterías",
       "Battery charging",
-      "industrial battery charger",
-      "battery charging station industrial",
-      "battery charger",
-      "MATCH:charg|batter"
+      "industrial battery charging forklift",
+      "electric forklift charging station",
+      "battery energy storage system",
+      "MATCH:forklift|energy storage|battery storage|battery charging station"
     ],
     [
       "Reserva de combustible",
@@ -239,18 +238,19 @@
     [
       "Producción de combustibles alternativos",
       "Alternative fuel production",
-      "biofuel production plant",
-      "synthetic fuel plant",
-      "biodiesel plant",
-      "MATCH:biofuel|biodiesel|ethanol|synthetic fuel|refinery"
+      "ethanol production plant",
+      "biodiesel refinery",
+      "biofuel refinery",
+      "ethanol plant",
+      "MATCH:ethanol plant|biodiesel plant|biofuel plant|ethanol production|refinery"
     ],
     [
       "Instalación energética industrial",
       "Industrial energy installation",
-      "industrial generator installation",
-      "power generation facility",
-      "power generator",
-      "MATCH:generator|power plant|power station"
+      "diesel power generator industrial",
+      "power station generator hall",
+      "diesel generator",
+      "MATCH:generator|genset|power station"
     ]
   ],
   [
@@ -281,10 +281,10 @@
     [
       "Climatización y demanda",
       "Cooling and demand",
-      "industrial chiller plant",
-      "industrial cooling tower",
-      "cooling tower",
-      "MATCH:chiller|cooling tower|air conditioning|hvac"
+      "industrial chiller",
+      "cooling tower power plant",
+      "air conditioning chiller",
+      "MATCH:chiller|cooling tower|air conditioning"
     ],
     [
       "Inundación de instalaciones eléctricas",
@@ -349,10 +349,9 @@
     [
       "Funciones esenciales en hangar",
       "Essential hangar functions",
-      "aircraft maintenance hangar interior",
       "aircraft maintenance hangar",
-      "aircraft hangar",
-      "MATCH:hangar|aircraft maintenance"
+      "aircraft maintenance hangar interior",
+      "MATCH:aircraft maintenance|hangar"
     ],
     [
       "Transferencia de suministro",
@@ -366,18 +365,18 @@
     [
       "Depósito de combustible",
       "Fuel tank",
-      "diesel storage tank generator",
-      "industrial fuel tank",
-      "fuel tank",
-      "MATCH:fuel|diesel|storage tank"
+      "diesel fuel storage tank",
+      "fuel storage tanks industrial",
+      "fuel tank farm",
+      "MATCH:fuel storage|diesel tank|fuel tank|tank farm"
     ],
     [
       "Medición de reservas",
       "Reserve measurement",
-      "fuel tank level gauge",
-      "fuel tank gauge",
-      "fuel tank",
-      "MATCH:fuel|gauge|tank"
+      "fuel storage tank industrial",
+      "diesel storage tank",
+      "fuel tank farm",
+      "MATCH:fuel storage|diesel tank|fuel tank|tank farm"
     ],
     [
       "Transporte de combustible",
@@ -391,9 +390,9 @@
       "Coordinación de emergencia",
       "Emergency coordination",
       "emergency operations center control room",
-      "emergency management operations center",
-      "emergency operations center",
-      "MATCH:operations cent|control room|emergency management"
+      "emergency operations center staff",
+      "power grid control room",
+      "MATCH:operations cent|control room|control cent"
     ],
     [
       "Equipos de generación temporal",
@@ -406,10 +405,10 @@
     [
       "Restablecimiento de la actividad",
       "Restoring operations",
-      "aircraft hangar maintenance workers",
-      "aircraft technicians hangar",
+      "aircraft maintenance technicians hangar",
+      "aircraft maintenance hangar technicians",
       "aircraft maintenance",
-      "MATCH:hangar|aircraft maintenance"
+      "MATCH:aircraft maintenance|aircraft technicians|hangar"
     ],
     [
       "Revisión de recuperación",
