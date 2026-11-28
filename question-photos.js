@@ -602,16 +602,16 @@ const ENERGY_QUESTION_PHOTOS=[
       "modification": "Resized / redimensionada"
     },
     {
-      "path": "assets/questions/m05-q10-r3.jpg",
-      "es": "Sala de supervisión de generación eléctrica",
-      "en": "Power generation monitoring room",
-      "title": "File:Control room of stage six.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Control_room_of_stage_six.jpg",
-      "credit": "Shivashishpandey35",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "0f59210d13d4ed9e6859bff9425e0e1bd4b920d1",
-      "query": "FILE:Control room of stage six.jpg",
+      "path": "assets/questions/m05-q10-r4.jpg",
+      "es": "Analizador digital de potencia",
+      "en": "Digital power analyser",
+      "title": "File:Hioki 3390 Power analyzer.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hioki_3390_Power_analyzer.jpg",
+      "credit": "Tiia Monto",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sha1": "8d9ec096a8ee4bc7573bbaa53a2bbd73594f02ce",
+      "query": "FILE:Hioki 3390 Power analyzer.jpg",
       "modification": "Resized / redimensionada"
     }
   ]
