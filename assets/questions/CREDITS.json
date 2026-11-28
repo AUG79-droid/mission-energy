@@ -297,16 +297,16 @@
       "query": "photovoltaic inverter station"
     },
     {
-      "path": "assets/questions/m03-q05-r5.jpg",
-      "es": "Baterías industriales en contenedor",
-      "en": "Industrial containerised batteries",
-      "title": "File:Tesvolt Batteriespeicher in Container.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Tesvolt_Batteriespeicher_in_Container.jpg",
-      "credit": "Tomás Freres",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "7925348b78f1228aa51cc2b8310f5e95565857e7",
-      "query": "FILE:Tesvolt Batteriespeicher in Container.jpg",
+      "path": "assets/questions/m03-q05-r6.jpg",
+      "es": "Módulos industriales de almacenamiento energético",
+      "en": "Industrial battery energy storage modules",
+      "title": "File:Tesla Megapack set of 4 with solar canopy.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tesla_Megapack_set_of_4_with_solar_canopy.webp",
+      "credit": "Wikideas1",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha1": "8f3b8dd883b434652847a19bf0149cb29362e521",
+      "query": "FILE:Tesla Megapack set of 4 with solar canopy.webp",
       "modification": "Resized / redimensionada"
     },
     {
@@ -510,16 +510,16 @@
       "modification": "Resized / redimensionada"
     },
     {
-      "path": "assets/questions/m05-q02-r5.jpg",
-      "es": "Aeronave de transporte A400M",
-      "en": "A400M transport aircraft",
-      "title": "File:A 400 M.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:A_400_M.jpg",
-      "credit": "Pecon1",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sha1": "2405b6de41ac12ef407fa2ce7d611e7c355e71ee",
-      "query": "FILE:A 400 M.jpg",
+      "path": "assets/questions/m05-q02-r6.jpg",
+      "es": "Aeronave Airbus A400M",
+      "en": "Airbus A400M aircraft",
+      "title": "File:Airbus A400M-180 (cn 81, 54+22) 2024-06-09 Andre Gerwing Collection ID 020082.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Airbus_A400M-180_(cn_81,_54%2B22)_2024-06-09_Andre_Gerwing_Collection_ID_020082.jpg",
+      "credit": "André Gerwing",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "90a7ed736f695e59a86be525467e19cf20c682d0",
+      "query": "FILE:Airbus A400M-180 (cn 81, 54+22) 2024-06-09 Andre Gerwing Collection ID 020082.jpg",
       "modification": "Resized / redimensionada"
     },
     {
