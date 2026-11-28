@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 from io import BytesIO
 ROOT=Path(__file__).resolve().parents[1]
-targets={"4.6":["Interior of a substation.jpg","Equipamiento elevado de subestación ante inundación","Elevated substation equipment for flood protection"],"4.8":["Electrical Control Panel Made By True Logic Group Inc.jpg","Cuadro de control industrial","Industrial control panel"],"5.1":["Reid Gardner BESS.jpg","Instalación de almacenamiento energético industrial","Industrial battery energy storage installation"],"5.8":["100 kW Mobile engine-generator (1).jpg","Generador móvil de emergencia","Mobile emergency generator"],"5.9":["Data center backup generators.jpg","Instalación de respaldo para continuidad de servicio","Backup installation for service continuity"],"5.10":["Control room of stage six.jpg","Sala de supervisión de generación eléctrica","Power generation monitoring room"],"control":["Control Center Elektro Ljubljana using CyberNoc.jpg","Centro de control eléctrico de 2025","Electrical control centre, 2025"]}
+targets={"5.10":["Hioki 3390 Power analyzer.jpg","Analizador digital de potencia","Digital power analyser"]}
 manifest=json.loads((ROOT/'assets/questions/CREDITS.json').read_text())
 def get(url):
     for n in range(4):
@@ -28,7 +28,7 @@ for k,(name,es,en) in targets.items():
     if k=='control':
         path='assets/mission-control-2025.jpg'
     else:
-        i,j=map(int,k.split('.'));path=f'assets/questions/m{i:02d}-q{j:02d}-r3.jpg'
+        i,j=map(int,k.split('.'));path=f'assets/questions/m{i:02d}-q{j:02d}-r4.jpg'
     im.save(ROOT/path,quality=90,optimize=True)
     p={'path':path,'es':es,'en':en,'title':page['title'],'source':info['descriptionurl'],'credit':val('Artist') or val('Credit'),'license':lic,'licenseUrl':meta.get('LicenseUrl',{}).get('value',''),'sha1':info['sha1'],'query':'FILE:'+name,'modification':'Resized / redimensionada'}
     used.add(info['sha1'])
@@ -39,3 +39,12 @@ for k,(name,es,en) in targets.items():
 assert len({x['sha1'] for row in manifest for x in row})==50
 (ROOT/'assets/questions/CREDITS.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'question-photos.js').write_text('const ENERGY_QUESTION_PHOTOS='+json.dumps(manifest,ensure_ascii=False,indent=2)+';\n')
+
+from PIL import ImageDraw
+for i,row in enumerate(manifest):
+    sheet=Image.new('RGB',(1200,900),'#ffffff');d=ImageDraw.Draw(sheet)
+    for j,p in enumerate(row):
+        im=Image.open(ROOT/p['path']).convert('RGB');im.thumbnail((390,245))
+        x=(j%3)*400;y=(j//3)*225
+        im.thumbnail((390,195));sheet.paste(im,(x+(400-im.width)//2,y+20));d.text((x+8,y+3),f'{i+1}.{j+1}',fill='black')
+    folder=ROOT/'photo-review';folder.mkdir(exist_ok=True);sheet.save(folder/f'mission-{i+1}.jpg',quality=85)
