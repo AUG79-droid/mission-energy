@@ -1,16 +1,17 @@
 [
   [
     {
-      "path": "assets/questions/m01-q01-r2.jpg",
-      "es": "Ensayo aeronáutico instrumentado",
-      "en": "Instrumented aircraft test",
-      "title": "File:Igniting readiness in the engine test cell (9255818).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Igniting_readiness_in_the_engine_test_cell_(9255818).jpg",
-      "credit": "U.S. Air Force photo by Airman Nathaniel Jackson",
+      "path": "assets/questions/m01-q01-r5.jpg",
+      "es": "Banco de ensayo de motor aeronáutico",
+      "en": "Aircraft engine test bench",
+      "title": "File:Rolls-Royce Trent 7000 tested at Arnold Air Force Base Engineering Development Complex.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rolls-Royce_Trent_7000_tested_at_Arnold_Air_Force_Base_Engineering_Development_Complex.jpg",
+      "credit": "U.S. Air Force Photo/Jacqueline Cowan",
       "license": "Public domain",
       "licenseUrl": "",
-      "sha1": "5a5566145751cd2f8ad746301fbdafab9f1c64f3",
-      "query": "aircraft engine test cell"
+      "sha1": "d5e8b77959b0a9188592a2c475593c30a409e7f7",
+      "query": "FILE:Rolls-Royce Trent 7000 tested at Arnold Air Force Base Engineering Development Complex.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m01-q02.jpg",
@@ -147,16 +148,17 @@
       "query": "industrial air conditioning chiller"
     },
     {
-      "path": "assets/questions/m02-q03.jpg",
-      "es": "Planificación de trabajos en hangar",
-      "en": "Hangar work planning",
-      "title": "File:Aircraft Maintenance, AMN, Teuge Airport.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Aircraft_Maintenance,_AMN,_Teuge_Airport.jpg",
-      "credit": "Peter F.A. van de Noort",
+      "path": "assets/questions/m02-q03-r5.jpg",
+      "es": "Aeronave Airbus A400M en tierra",
+      "en": "Airbus A400M on the ground",
+      "title": "File:AIRBUS A400M .jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:AIRBUS_A400M_.jpg",
+      "credit": "Igor Syzdykov",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "0d52d3a58ec27afe03715362703263365b77460b",
-      "query": "aircraft maintenance hangar technicians"
+      "sha1": "84197b7124a7c13bb0c7a7a6a6a427dea4957467",
+      "query": "FILE:AIRBUS A400M .jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m02-q04.jpg",
@@ -207,16 +209,17 @@
       "query": "Airbus aircraft maintenance hangar"
     },
     {
-      "path": "assets/questions/m02-q08-r2.jpg",
-      "es": "Registro de ensayos",
-      "en": "Test data recording",
-      "title": "File:CTC01.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:CTC01.jpg",
-      "credit": "Javierito92",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sha1": "bdb7e942687ad5f5ad43b0a0197924c09c0807c5",
-      "query": "Category:Control rooms"
+      "path": "assets/questions/m02-q08-r5.jpg",
+      "es": "Banco de ensayo eléctrico instrumentado",
+      "en": "Instrumented electrical test stand",
+      "title": "File:Electric Motor Test Stand Will Help With Future X-planes (AFRC2016-0100-05).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Electric_Motor_Test_Stand_Will_Help_With_Future_X-planes_(AFRC2016-0100-05).jpg",
+      "credit": "NASA Armstrong Flight Research Center / Lauren Hughes",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sha1": "0f6536b005049c8a80f3add8a03c55f50d467d2a",
+      "query": "FILE:Electric Motor Test Stand Will Help With Future X-planes (AFRC2016-0100-05).jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m02-q09-r2.jpg",
@@ -231,16 +234,17 @@
       "query": "industrial compressor room"
     },
     {
-      "path": "assets/questions/m02-q10.jpg",
-      "es": "Comprobación de instalaciones eléctricas",
-      "en": "Electrical installation verification",
-      "title": "File:Performing relay trip check and setting on a switchgear cabinet at a power facility in Queens. 10-01-2019 (48843694488).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Performing_relay_trip_check_and_setting_on_a_switchgear_cabinet_at_a_power_facility_in_Queens._10-01-2019_(48843694488).jpg",
-      "credit": "MTA Capital Construction Mega Projects",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sha1": "3d6fbf75128e094589679f3eae56624d5fe5452c",
-      "query": "FILE:Performing relay trip check and setting on a switchgear cabinet at a power facility in Queens. 10-01-2019 (48843694488).jpg"
+      "path": "assets/questions/m02-q10-r5.jpg",
+      "es": "Instrumento de análisis eléctrico digital",
+      "en": "Digital electrical analysis instrument",
+      "title": "File:Digital Power Analyzer.gif",
+      "source": "https://commons.wikimedia.org/wiki/File:Digital_Power_Analyzer.gif",
+      "credit": "SamShearman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha1": "cf695d2f45cd065ccd578ba5e747de16201b48a3",
+      "query": "FILE:Digital Power Analyzer.gif",
+      "modification": "Resized / redimensionada"
     }
   ],
   [
@@ -293,16 +297,17 @@
       "query": "photovoltaic inverter station"
     },
     {
-      "path": "assets/questions/m03-q05-r2.jpg",
-      "es": "Módulos de almacenamiento",
-      "en": "Energy storage modules",
-      "title": "File:Shoals Battery Bank.jpeg",
-      "source": "https://commons.wikimedia.org/wiki/File:Shoals_Battery_Bank.jpeg",
-      "credit": "Ross Hansen, Shoals Marine Lab Director of Facilities and Planning",
+      "path": "assets/questions/m03-q05-r5.jpg",
+      "es": "Baterías industriales en contenedor",
+      "en": "Industrial containerised batteries",
+      "title": "File:Tesvolt Batteriespeicher in Container.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tesvolt_Batteriespeicher_in_Container.jpg",
+      "credit": "Tomás Freres",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sha1": "bcc85d1eb34d55a6d1bf12aeb18734e5f364c5cd",
-      "query": "Category:Battery banks"
+      "sha1": "7925348b78f1228aa51cc2b8310f5e95565857e7",
+      "query": "FILE:Tesvolt Batteriespeicher in Container.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m03-q06-r2.jpg",
@@ -465,16 +470,17 @@
       "modification": "Resized / redimensionada"
     },
     {
-      "path": "assets/questions/m04-q09-r2.jpg",
-      "es": "Inspección y reparación",
-      "en": "Inspection and repair",
-      "title": "File:Systems testing in the service switchgear room of a power substation located in Queens. (CS179, 08-13-2018) (44048210052).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Systems_testing_in_the_service_switchgear_room_of_a_power_substation_located_in_Queens._(CS179,_08-13-2018)_(44048210052).jpg",
-      "credit": "MTA Capital Construction Mega Projects",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sha1": "b753fac4962c0eacec78d8612a76b7cb7c44bba5",
-      "query": "intitle:\"switchgear\" testing"
+      "path": "assets/questions/m04-q09-r5.jpg",
+      "es": "Armario de transferencia para inspección eléctrica",
+      "en": "Transfer switch cabinet for electrical inspection",
+      "title": "File:Generator Transfer Switch Front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Generator_Transfer_Switch_Front.jpg",
+      "credit": "Robert.Harker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sha1": "997e297e9bcfb5bfbdb225f32237ac6882e99303",
+      "query": "FILE:Generator Transfer Switch Front.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m04-q10.jpg",
@@ -504,16 +510,17 @@
       "modification": "Resized / redimensionada"
     },
     {
-      "path": "assets/questions/m05-q02-r2.jpg",
-      "es": "Funciones esenciales en hangar",
-      "en": "Essential hangar functions",
-      "title": "File:Jetstar Airbus A320 in a hangar (6768081235).jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Jetstar_Airbus_A320_in_a_hangar_(6768081235).jpg",
-      "credit": "Jetstar Airways from Melbourne, Australia",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "sha1": "39a9c8f201ff25b538d46bc2cdd07799fc93f3ac",
-      "query": "intitle:\"hangar\" Airbus"
+      "path": "assets/questions/m05-q02-r5.jpg",
+      "es": "Aeronave de transporte A400M",
+      "en": "A400M transport aircraft",
+      "title": "File:A 400 M.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_400_M.jpg",
+      "credit": "Pecon1",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sha1": "2405b6de41ac12ef407fa2ce7d611e7c355e71ee",
+      "query": "FILE:A 400 M.jpg",
+      "modification": "Resized / redimensionada"
     },
     {
       "path": "assets/questions/m05-q03-r2.jpg",
